@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200);
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* apply some general styles */
+@layer base {
+  /* * {
+    @apply box-border;
+  } */
+  body {
+    @apply font-secondary text-lg text-dark bg-[#E5E5E5];
+  }
+  .section {
+    @apply py-[40px] lg:py-[160px];
+  }
+  .link {
+    @apply font-oswald uppercase tracking-[0.08em];
+  }
+  .h1 {
+    @apply text-[60px] lg:text-[80px] xl:text-[90px] tracking-[-2px] leading-none font-rozha mb-4;
+  }
+  .h2 {
+    @apply text-[40px] lg:text-[60px] xl:text-[70px] 2xl:text-[55px] text-dark uppercase font-oswald max-w-[236px] 2xl:max-w-[400px] leading-none mb-[38px] 2xl:mb-[70px] 3xl:mb-[90px];
+  }
+  .h3 {
+    @apply text-[34px] lg:text-[36px] xl:text-[40px] 2xl:text-[42px] text-dark uppercase font-oswald max-w-[300px] 2xl:max-w-[400px] leading-none mb-[15px];
+  }
+  .h4 {
+    @apply text-[16px] lg:text-[20px] xl:text-[18px] 2xl:text-[19px] 3xl:text-[20px] text-dark uppercase font-secondary max-w-[310px] leading-none mb-[15px];
+  }
+
+  /* buttons */
+  .btn {
+    @apply font-oswald text-lg tracking-[0.08em] uppercase px-[40px] transition-all duration-500 flex items-center gap-x-[10px];
+  }
+  .btn-sm {
+    @apply h-[55px];
+  }
+  .btn-lg {
+    @apply h-[67px];
+  }
+  .btn-outline {
+    @apply border border-white/70 bg-none hover:bg-white hover:text-dark;
+  }
+  .btn-dark {
+    @apply bg-dark hover:bg-dark/90 transition-all text-white;
+  }
+  .btn-link {
+    @apply px-0 h-auto text-dark hover:text-dark/90 transition-all;
+  }
+}

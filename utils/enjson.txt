@@ -1,0 +1,191 @@
+{
+  "Header": {
+    "home": "Home",
+    "about": "About",
+    "gallery": "Gallery",
+    "interview": "Interview",
+    "faqs": "FAQs",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "My Story:",
+    "subtitle1": "I've dedicated many years to developing formulas to create a shampoo that not only cleanses but also nourishes your hair from root to tip. For me, beautiful hair is a reflection of your unique self.",
+    "subtitle2": "My mission is to give you confidence. Every time you use my shampoo, you'll experience not just cleanliness but also strength, health, and the radiance of your hair.",
+    "subtitle3": "Join me and discover the secrets of luxurious hair.",
+    "btnText": "Know more",
+    "btnIcon": "<IoMdArrowForward />"
+  },
+  "contact": {
+    "title": "Get in touch with me:",
+    "offices": {
+      "la": {
+        "title": "LA office",
+        "subtitle": "In velit arcu posuere integer sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus",
+        "address": "784 Norman Street, Los Angeles",
+        "phone": "+49 93 30493943",
+        "email": "contact@yourcompany.com",
+        "link": "Get location"
+      },
+      "nyc": {
+        "title": "NYC office",
+        "subtitle": "Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus",
+        "address": "1630 Elm Drive, New York City",
+        "phone": "+49 34 36573355",
+        "email": "contact@yourcompany.com",
+        "link": "Get location"
+      }
+    },
+    "form": {
+      "name": "Write your name here",
+      "email": "Write your email address",
+      "message": "Write your messages here",
+      "btnText": "Send it"
+    }
+  },
+  "hero": {
+    "title": "I'm Manu, Sir.",
+    "subtitle": "I'm a professional tattoo artist. I have been tattooing for 10 years. Tattoos have their own unique power and magic. They not only beautify the body but also the psyche.",
+    "btnText": "read more",
+    "btnIcon": "⇒"
+  },
+  "features": {
+    "title": "Shampoo Features",
+    "1": {
+      "topText": "Every Wash Matters",
+      "title": "Nourishment",
+      "subtitle": "Hydrate Your Hair",
+      "description": "Experience the ultimate hydration with our nourishing shampoo, formulated to deeply moisturize and revitalize your hair."
+    },
+    "2": {
+      "topText": "Every Wash Matters",
+      "title": "Cleansing",
+      "subtitle": "Cleanse Without Stripping",
+      "description": "Our gentle formula cleanses your hair without stripping away its natural oils, leaving it soft and manageable."
+    },
+    "3": {
+      "topText": "Every Wash Matters",
+      "title": "Volume",
+      "subtitle": "Boost Your Volume",
+      "description": "Add volume and bounce to your hair with our volumizing shampoo, designed to lift your roots and create a fuller, more voluminous look."
+    },
+    "4": {
+      "topText": "Every Wash Matters",
+      "title": "Color Protection",
+      "subtitle": "Preserve Your Color",
+      "description": "Maintain the vibrancy of your color-treated hair with our color-protecting shampoo, formulated to lock in color and prevent fading."
+    },
+    "5": {
+      "topText": "Every Wash Matters",
+      "title": "Reparation",
+      "subtitle": "Restore Your Hair",
+      "description": "Repair damaged hair and restore its strength and shine with our damage-repairing shampoo, enriched with nourishing ingredients."
+    },
+    "6": {
+      "topText": "Every Wash Matters",
+      "title": "Scalp Health",
+      "subtitle": "Soothe and Balance",
+      "description": "Maintain a healthy scalp with our gentle, soothing shampoo, formulated to reduce irritation and promote hair growth."
+    }
+  },
+  "shampooImages": [
+    {
+      "src": "public/img/shampoo/1-shampoo.jpg",
+      "alt": "Shampoo 1",
+      "descriptionTitle": "Botanical Shine",
+      "description": "Revitalize your hair with our botanical-infused shampoo, designed to restore natural shine and promote healthy, voluminous locks."
+    },
+    {
+      "src": "public/img/shampoo/2-shampoo.jpg",
+      "alt": "Shampoo 2",
+      "descriptionTitle": "Deep Hydration",
+      "description": "Experience deep hydration with this nourishing shampoo, enriched with natural oils to strengthen and protect dry or damaged hair."
+    },
+    {
+      "src": "public/img/shampoo/3-shampoo.jpg",
+      "alt": "Shampoo 3",
+      "descriptionTitle": "Clarifying Cleanse",
+      "description": "A clarifying shampoo that removes build-up and impurities, leaving your scalp refreshed and hair clean without stripping natural moisture."
+    },
+    {
+      "src": "public/img/shampoo/4-shampoo.jpg",
+      "alt": "Shampoo 4",
+      "descriptionTitle": "Color Care",
+      "description": "This gentle, sulfate-free formula is perfect for color-treated hair, preserving vibrancy while keeping your strands soft and smooth."
+    },
+    {
+      "src": "public/img/shampoo/5-shampoo.jpg",
+      "alt": "Shampoo 5",
+      "descriptionTitle": "Antioxidant Protection",
+      "description": "Packed with antioxidants, this shampoo protects against environmental damage while promoting hair growth and scalp health."
+    }
+  ],
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "How often should I use shampoo?",
+        "answer": "It's generally recommended to wash your hair with shampoo 2-3 times per week. However, this may vary depending on your hair type and lifestyle. Those with oily hair might shampoo daily, while those with dry or curly hair may shampoo less often."
+      },
+      {
+        "question": "Should I apply shampoo to dry or wet hair?",
+        "answer": "Always apply shampoo to wet hair. Start by thoroughly soaking your hair with water before applying shampoo to ensure it lathers well and cleans effectively."
+      },
+      {
+        "question": "How much shampoo should I use?",
+        "answer": "Use a coin-sized amount for short hair, and adjust the amount based on your hair length and thickness. Using too much can leave residue, while too little may not clean adequately."
+      },
+      {
+        "question": "Can I use shampoo as a body wash?",
+        "answer": "Shampoo is formulated specifically for hair and may not be ideal for skin. While it may not harm you in an emergency, it's best to use a body wash, as shampoo may not effectively cleanse or moisturize skin."
+      },
+      {
+        "question": "Do I need to shampoo twice in one wash?",
+        "answer": "Double shampooing can be beneficial if you use heavy styling products or have oily hair. The first wash removes buildup, and the second ensures a deep clean. However, it’s not necessary for everyone and may dry out some hair types."
+      }
+    ]
+  },
+  "footer": {
+    "about": {
+      "title": "Your Tatiana Braga shampoo awaits you here",
+      "subtitle": "Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus",
+      "address": {
+        "icon": "<FaMapMarkerAlt/>",
+        "name": "1630 Elm Drive, New York City"
+      },
+      "phone": {
+        "icon": "<FaPhoneAlt/>",
+        "number": "+49 34 36573355"
+      },
+      "email": {
+        "icon": "<FaEnvelope/>",
+        "address": "contact@yourcompany.com"
+      }
+    },
+    "links": {
+      "title": "Useful links",
+      "items": [
+        { "href": "#about", "name": "About me" },
+        { "href": "#gallery", "name": "My gallery" },
+        { "href": "/", "name": "My services" },
+        { "href": "#contact", "name": "Contact me" }
+      ]
+    },
+    "program": {
+      "title": "Working Time",
+      "items": [
+        { "name": "Mon - Tue / Appointment" },
+        { "name": "Wed - Fri / 10:00 - 9:00pm" },
+        { "name": "Sat / 10:00 - 6:00pm" },
+        { "name": "Sun / no work on this day" }
+      ]
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "subtitle": "Elit duis porttitor massa tellus nun in velit arcu posuere integer.",
+      "form": {
+        "placeholder": "Your email address",
+        "icon": "<FiSend/>"
+      }
+    }
+  }
+}
