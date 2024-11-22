@@ -7,7 +7,7 @@ import { fadeIn } from '../variants';
 import { useTranslations } from 'next-intl';
 import { FiSend } from 'react-icons/fi';
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
-import { navConfig } from '../../utils/navConfig';
+import { navConfig } from '../utils/navConfig';
 
 const staggerContainer = {
   hidden: {},
