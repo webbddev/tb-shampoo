@@ -13,24 +13,35 @@ import {
 import { sendEmail } from '../../actions/sendEmail';
 import toast from 'react-hot-toast';
 import { useFormStatus } from 'react-dom';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
+
 const Contact = () => {
   const t = useTranslations('contact');
   const formRef = useRef(null);
   const { pending } = useFormStatus();
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const offices = ['la', 'nyc'];
 
   const handleSubmit = async (formData) => {
-    const { data, error } = await sendEmail(formData);
+    try {
+      setIsSubmitting(true);
+      const { data, error } = await sendEmail(formData);
 
-    if (error) {
-      toast.error(error);
-      return;
+      if (error) {
+        toast.error(error);
+        return;
+      }
+
+      toast.success('Email sent successfully!');
+      formRef.current?.reset();
+      
+    } catch (error) {
+      toast.error('An error occurred. Please try again.');
+      console.error('Form submission error:', error);
+    } finally {
+      setIsSubmitting(false);
     }
-
-    toast.success('Email sent successfully!');
-    formRef.current?.reset(); // Clear the form after successful submission
   };
 
   return (
@@ -101,12 +112,18 @@ const Contact = () => {
               ref={formRef}
               className='flex flex-col gap-y-10 w-full font-thin'
               action={handleSubmit}
+              onSubmit={(e) => {
+                if (isSubmitting) {
+                  e.preventDefault();
+                }
+              }}
             >
               <input
                 className='border-b border-dark placeholder:text-[#555] italic tracking-[0.06em] outline-none pb-4'
                 name='senderName'
                 placeholder={t('form.name')}
                 type='text'
+                disabled={isSubmitting}
               />
               <input
                 className='border-b border-dark placeholder:text-[#555] italic tracking-[0.06em] outline-none pb-4'
@@ -114,6 +131,7 @@ const Contact = () => {
                 placeholder={t('form.email')}
                 type='email'
                 required
+                disabled={isSubmitting}
               />
               <textarea
                 className='border-b border-dark placeholder:text-[#555] italic tracking-[0.06em] outline-none pb-4'
@@ -121,14 +139,15 @@ const Contact = () => {
                 placeholder={t('form.message')}
                 required
                 maxLength={5000}
+                disabled={isSubmitting}
               />
               {/* button */}
               <button
                 type='submit'
-                disabled={pending}
+                disabled={isSubmitting || pending}
                 className='btn btn-sm btn-dark self-start group flex items-center gap-2 disabled:opacity-65'
               >
-                {pending ? (
+                {(isSubmitting || pending) ? (
                   <div className='h-4 w-4 animate-spin rounded-full border-b-2 border-white'></div>
                 ) : (
                   <>
@@ -136,7 +155,7 @@ const Contact = () => {
                     <FaPaperPlane className='text-xs opacity-70 transition-all group-hover:translate-x-1 group-hover:-translate-y-1' />
                   </>
                 )}
-              </button>{' '}
+              </button>
             </form>
           </motion.div>
         </div>
