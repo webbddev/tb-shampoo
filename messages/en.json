@@ -41,6 +41,10 @@
       "message": "Write your messages here",
       "btnText": "Send it",
       "successMessage": "Your message has been sent successfully"
+    },
+    "notifications": {
+      "success": "Email sent successfully!",
+      "error": "Please fill in all the fields!"
     }
   },
   "hero": {

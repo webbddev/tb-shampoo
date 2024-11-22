@@ -13,6 +13,11 @@ export const sendEmail = async (formData) => {
   const message = formData.get('message');
 
   // Simple server-side validation
+  if (!validateString(senderName, 500)) {
+    return {
+      error: 'Add your name please',
+    };
+  }
   if (!validateString(senderEmail, 500)) {
     return {
       error: 'Invalid sender email',
@@ -20,7 +25,7 @@ export const sendEmail = async (formData) => {
   }
   if (!validateString(message, 5000)) {
     return {
-      error: 'Invalid message',
+      error: 'Add your message please',
     };
   }
 
