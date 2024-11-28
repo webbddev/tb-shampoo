@@ -33,7 +33,7 @@ html {
     @apply text-[34px] lg:text-[36px] xl:text-[40px] 2xl:text-[42px] text-dark uppercase font-oswald max-w-[300px] 2xl:max-w-[400px] leading-none mb-[15px];
   }
   .h4 {
-    @apply text-[16px] lg:text-[20px] xl:text-[18px] 2xl:text-[19px] 3xl:text-[20px] text-dark uppercase font-secondary max-w-[510px] leading-none mb-[15px];
+    @apply text-[16px] lg:text-[20px] xl:text-[18px] 2xl:text-[19px] 3xl:text-[20px] text-dark uppercase font-secondary max-w-[510px] leading-none;
   }
 
   /* buttons */
