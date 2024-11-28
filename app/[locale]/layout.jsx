@@ -5,8 +5,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound, redirect } from 'next/navigation';
 import { routing } from '../../i18n/routing';
-import { Toaster } from "react-hot-toast";
-
+import { Toaster } from 'react-hot-toast';
 
 const oswald = Oswald({
   subsets: ['latin'],
@@ -45,7 +44,15 @@ export default async function RootLayout({ children, params: { locale } }) {
       <body className={`${oswald.variable} ${rozha.variable}`}>
         <NextIntlClientProvider messages={messages}>
           {children}
-            <Toaster position="top-right" />
+          <Toaster
+            position='top-center'
+            containerStyle={{
+              top: '25%',
+              left: '20%',
+              bottom: '20%',
+              right: '20%',
+            }}
+          />
         </NextIntlClientProvider>
       </body>
     </html>

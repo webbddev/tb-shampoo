@@ -12,8 +12,8 @@ const Features = () => {
   const t = useTranslations('features');
 
   return (
-    <section id='features' className='container mx-auto py-6 '>
-      {/* FAQ Title */}
+    <section id='features' className='section container mx-auto py-6 '>
+      {/* Features Title */}
       <motion.h2
         variants={fadeIn('up')}
         initial='hidden'
