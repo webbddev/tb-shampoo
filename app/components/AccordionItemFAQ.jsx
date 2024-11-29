@@ -16,7 +16,7 @@ const AccordionItemFAQ = ({ item, index }) => {
         aria-expanded={isAccordionOpen}
       >
         {/* Question text */}
-        <h4 className='flex-1 h4 text-left'>{t(`items.${index}.question`)}</h4>
+        <h4 className='flex-1 h4 font-oswald capitalize tracking-wide text-left'>{t(`items.${index}.question`)}</h4>
         {/* Icon container */}
         <div
           className={`transform transition-transform duration-300 ease-in-out ${
@@ -33,7 +33,7 @@ const AccordionItemFAQ = ({ item, index }) => {
         }`}
       >
         {/* Answer text */}
-        <p className='px-4 text-gray-700 font-secondary font-light text-xl mb-3'>
+        <p className='px-4 text-gray-700 font-secondary font-light text-lg mb-3'>
           {t(`items.${index}.answer`)}
         </p>
       </div>
