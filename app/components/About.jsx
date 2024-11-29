@@ -10,8 +10,8 @@ import { IoMdArrowForward } from 'react-icons/io';
 import { fadeIn } from '../variants';
 
 const About = () => {
-  const { title, subtitle1, subtitle2, subtitle3, btnText, btnIcon } =
-    aboutData;
+  // const { title, subtitle1, subtitle2, subtitle3, btnText, btnIcon } =
+  //   aboutData;
   const [isButtonClicked, setIsButtonClicked] = useState(false);
     const t = useTranslations('about');
 
@@ -32,9 +32,6 @@ const About = () => {
             <div className='text-[300px] xl:text-[460px] 2xl:text-[500px] leading-none font-rozha lg:-tracking-[0.021em]  bg-about_img bg-no-repeat bg-right bg-clip-text text-transparent overflow-visible'>
               TB
             </div>
-            {/* <div className='text-[300px] xl:text-[520px] 2xl:text-[720px] leading-none font-rozha lg:-tracking-[0.055em] bg-about_img bg-no-repeat bg-right bg-clip-text text-transparent max-w-max'>
-              TB
-            </div> */}
           </motion.div>
 
           {/* text */}
@@ -48,10 +45,10 @@ const About = () => {
             <h2 className='h2'>{t('title')}</h2>
             <div className='flex flex-col items-end'>
               <div className='font-light max-w-[590px] text-grey'>
-                <p className='mb-6'>{t('subtitle1')}</p>
-                <p className='mb-9'>{t('subtitle2')}</p>
+                <p className='p mb-6'>{t('subtitle1')}</p>
+                <p className='p mb-9'>{t('subtitle2')}</p>
                 {isButtonClicked ? (
-                  <p className='mb-9'>{t('subtitle3')}</p>
+                  <p className='p mb-9'>{t('subtitle3')}</p>
                 ) : (
                   <button
                     className='btn btn-lg btn-link font-normal'

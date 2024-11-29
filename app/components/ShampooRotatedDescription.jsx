@@ -6,10 +6,9 @@ import { fadeIn } from '../variants';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
-
 const ShampooRotatedDescription = () => {
   const { shampooImages } = shampooData;
-  const t = useTranslations('shampooImages'); 
+  const t = useTranslations('shampooImages');
 
   return (
     <section id='about' className='py-5 lg:py-16 xl:pb-[160px]'>
@@ -19,6 +18,7 @@ const ShampooRotatedDescription = () => {
             const isEven = index % 2 === 0;
 
             return (
+              // Individual shampoo item container
               <div
                 key={index}
                 className='flex flex-col lg:flex-row lg:gap-x-[70px] lg:items-center'
@@ -26,7 +26,8 @@ const ShampooRotatedDescription = () => {
                 <div
                   className={`flex flex-col lg:flex-row lg:gap-x-[70px] lg:items-center w-full`}
                 >
-                  {/* Description */}
+                  {/* Description section with animation */}
+                  {/* Uses fadeIn animation from left/right based on even/odd index */}
                   <motion.div
                     variants={fadeIn(isEven ? 'right' : 'left')}
                     initial='hidden'
@@ -48,8 +49,9 @@ const ShampooRotatedDescription = () => {
                         isEven ? 'items-start' : ''
                       } lg:mb-36`}
                     >
+                      {/* Description text container */}
                       <div className='font-light max-w-[530px] text-grey'>
-                        <p className='mb-6'>{t(`${index}.description`)}</p>
+                        <p className='p mb-6'>{t(`${index}.description`)}</p>
                       </div>
                     </div>
                   </motion.div>

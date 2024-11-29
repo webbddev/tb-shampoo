@@ -149,6 +149,20 @@
       }
     ]
   },
+  "testimonial": {
+    "slides": [
+      {
+        "message": "I've tried so many shampoos, but this one is a game-changer. It's so gentle yet effective, my hair feels healthier and looks shinier than ever. My boyfriend can't get enough of it. I'm absolutely thrilled with the results.",
+        "name": "Olivia Gordis",
+        "occupation": "Journalist"
+      },
+      {
+        "message": "This shampoo is simply magical! My hair has become thicker, softer, and more manageable. I'm very happy with the results. I recommend it to everyone!",
+        "name": "Olga",
+        "occupation": "Stylist"
+      }
+    ]
+  },
   "footer": {
     "about": {
       "title": "Your shampoo awaits you here",

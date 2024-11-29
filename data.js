@@ -335,9 +335,9 @@ export const testimonialData = [
   {
     quoteImg: QuoteImg,
     message:
-      "The entire team is extremely kind and friendly. They're fantastic. They're great at what they do! And it's unique.They will properly consult with you.",
-    name: 'Jack Geoffrey',
-    occupation: 'Tattoo Artist',
+      "This shampoo is simply magical! My hair has become thicker, softer, and more manageable. I'm very happy with the results. I recommend it to everyone!",
+    name: 'Olga',
+    occupation: 'Stylist',
   },
   {
     quoteImg: QuoteImg,
