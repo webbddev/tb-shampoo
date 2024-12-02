@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { IoMdArrowForward } from 'react-icons/io';
@@ -14,15 +15,22 @@ const container = {
     },
   },
 };
-
 const Hero = () => {
   const t = useTranslations('hero');
 
   return (
     <section
       id='home'
-      className='bg-hero_img bg-cover bg-center h-[440px] lg:h-[848px] xl:h-screen 2xl:h-[1048px] 3xl:h-[1203px] bg-no-repeat mt-[120px] lg:mt-[150px]'
+      className='relative h-[440px] lg:h-[848px] xl:h-screen 2xl:h-[1048px] 3xl:h-[1203px] mt-[120px] lg:mt-[150px]'
     >
+      <Image
+        src="/img/hero/13-col-pic.webp"
+        alt="Hero background"
+        fill
+        priority
+        className="object-cover"
+        sizes="100vw"
+      />
       <motion.div
         variants={container}
         initial='hidden'

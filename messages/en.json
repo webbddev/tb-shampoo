@@ -163,6 +163,10 @@
       }
     ]
   },
+  "interview": {
+    "title": "Your hair, your canvas. Let our handcrafted shampoo be your artist's brush.",
+    "btnText": "Watch it now"
+  },
   "footer": {
     "about": {
       "title": "Your shampoo awaits you here",

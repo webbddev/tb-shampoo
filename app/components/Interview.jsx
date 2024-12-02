@@ -1,21 +1,16 @@
 'use client';
 
 import React, { useState } from 'react';
-// import data
+import { useTranslations } from 'next-intl';
+import { FaPlay } from 'react-icons/fa';
 import { interviewData } from '../../data';
-// import modal video
 import ModalVideo from 'react-modal-video';
-// modal video css
 import '../modalVideo.scss';
-// import motion
 import { motion } from 'framer-motion';
-// import fade in
 import { fadeIn } from '../variants';
 
 const Interview = () => {
-  // destructure interview data
-  const { title, btnText, btnIcon } = interviewData;
-  // open state
+  const t = useTranslations('interview');
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -33,9 +28,9 @@ const Interview = () => {
             {/* title */}
             <motion.h3
               variants={fadeIn('down')}
-              className='text-white text-[40px] lg:text-[55px] leading-[1.1] font-rozha -tracking-[1.3px] capitalize mb-8'
+              className='text-white text-[40px] lg:text-[55px] leading-[1.1] font-rozha -tracking-[1.3px] normal-case italic mb-8'
             >
-              {title}
+              {t('title')}
             </motion.h3>
 
             <motion.div variants={fadeIn('down')}>
@@ -48,11 +43,13 @@ const Interview = () => {
                 <div className='w-[70px] h-[70px] lg:w-[91px] lg:h-[91px] border border-white/40 rounded-full text-dark p-[5px] lg:p-[8px]'>
                   {/* inner */}
                   <div className='w-full h-full rounded-full bg-white flex items-center justify-center'>
-                    <div className='pl-1'>{btnIcon}</div>
+                    <div className='pl-1'>
+                      <FaPlay />
+                    </div>
                   </div>
                 </div>
                 {/* btn text */}
-                <div className='font-oswald uppercase'>{btnText}</div>
+                <div className='font-oswald uppercase'>{t('btnText')}</div>
               </div>
             </motion.div>
             {/* modal video */}
