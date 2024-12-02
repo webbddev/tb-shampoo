@@ -43,7 +43,7 @@
       "successMessage": "Your message has been sent successfully"
     },
     "notifications": {
-      "success": "Email sent successfully!",
+      "success": "Hey {name}, your message was sent successfully!",
       "error": "Please fill in all the fields!"
     }
   },

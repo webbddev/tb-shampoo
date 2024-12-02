@@ -30,6 +30,7 @@ const Contact = () => {
       // Prevent multiple submissions
       setIsSubmitting(true);
       // Attempt to send email
+      const senderName = formData.get('senderName');
       const { data, error } = await sendEmail(formData);
 
       if (error) {
@@ -37,7 +38,7 @@ const Contact = () => {
         return;
       }
 
-      toast.success(t('notifications.success'));
+      toast.success(t('notifications.success', { name: senderName }));
       formRef.current?.reset();
     } catch (error) {
       toast.error(t('notifications.error'));

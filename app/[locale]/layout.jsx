@@ -52,6 +52,7 @@ export default async function RootLayout({ children, params: { locale } }) {
               bottom: '20%',
               right: '20%',
             }}
+            toastOptions={{duration:3000}}
           />
         </NextIntlClientProvider>
       </body>
