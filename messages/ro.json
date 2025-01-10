@@ -1,0 +1,154 @@
+{
+  "Header": {
+    "home": "Acasă",
+    "about": "Despre noi",
+    "gallery": "Galerie",
+    "interview": "Interviu",
+    "faqs": "Întrebări frecvente",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "Povestea mea despre crearea șamponului",
+    "subtitle1": "Am dedicat mulți ani dezvoltării formulelor pentru a crea un șampon care nu doar curăță părul, ci îl hrănește de la rădăcină până la vârfuri. Pentru mine, părul frumos este o reflecție a unicitații tale.",
+    "subtitle2": "Misiunea mea este să îți ofer încredere în tine. De fiecare dată când folosești șamponul meu, simți nu doar curățenie, ci și putere, sănătate și strălucire în părul tău.",
+    "subtitle3": "Alătură-te mie și descoperă secretele unui păr luxos.",
+    "btnText": "Află mai multe",
+    "btnIcon": "<IoMdArrowForward />"
+  },
+  "contact": {
+    "title": "Poți cumpăra șamponul aici:",
+    "offices": {
+      "la": {
+        "title": "Biroul din Los Angeles",
+        "subtitle": "În velit arcu posuere integer sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus",
+        "address": "784 Norman Street, Los Angeles",
+        "phone": "+49 93 30493943",
+        "email": "contact@yourcompany.com",
+        "link": "Arată pe hartă"
+      },
+      "nyc": {
+        "title": "Biroul din New York",
+        "subtitle": "Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus",
+        "address": "1630 Elm Drive, New York",
+        "phone": "+49 34 36573355",
+        "email": "contact@yourcompany.com",
+        "link": "Arată pe hartă"
+      }
+    },
+    "form": {
+      "name": "Introduceți numele dvs.",
+      "email": "Introduceți adresa dvs. de email",
+      "message": "Introduceți mesajul dvs.",
+      "btnText": "Trimite",
+      "successMessage": "Mesajul dvs. a fost trimis cu succes!"
+    },
+    "notifications": {
+      "success": "{name}, mesajul tău a fost trimis cu succes!",
+      "error": "Vă rugăm să completați toate câmpurile obligatorii."
+    }
+  },
+  "hero": {
+    "title": "Amino Acizi",
+    "subtitle": "Șampon cu aminoacizi pentru o curățare profundă și o restaurare a părului tău cu pH 6-7.",
+    "subtitle2": "T. Braga",
+    "btnText": "mai multe detalii",
+    "btnIcon": "⇒"
+  },
+  "features": {
+    "title": "STILISTUL TĂU PERSONAL ÎNTR-UN SINGUR FLACON",
+    "1": {
+      "topText": "",
+      "title": "Păr Strălucitor",
+      "subtitle": "Redă strălucirea sănătoasă a părului tău",
+      "description": "Curățarea profundă de reziduuri de produse de styling, sebum și poluare urbană readuce vitalitatea și luciul părului, pentru că acumularea acestor impurități le afectează din interior, făcându-le tern și fragile."
+    },
+    "2": {
+      "topText": "",
+      "title": "De mătreață și seboree",
+      "subtitle": "Îndepărtează mătreața de la prima utilizare. Eficient în combaterea seboreei",
+      "description": "Acidul salicilic și acidul lactic elimină celulele moarte de pe pielea capului și reglează producția de sebum, având în același timp un efect antibacterian."
+    },
+    "3": {
+      "topText": "",
+      "title": "Controlul sebumului",
+      "subtitle": "Normalizează echilibrul sebumului",
+      "description": "Șamponul menține un echilibru sănătos al sebumului, esențial în perioada adolescenței, când schimbările hormonale pot provoca exces de sebum."
+    },
+    "4": {
+      "topText": "",
+      "title": "Fortificare și regenerare",
+      "subtitle": "Reduce ruperea părului și vârfurile despicate",
+      "description": "Complexul de aminoacizi și pantenolul hrănesc intens părul, reducând semnificativ fragilitatea acestuia și contribuind la îmbunătățirea sănătății sale."
+    },
+    "5": {
+      "topText": "",
+      "title": "Păstrează hidratarea în timpul coafării",
+      "subtitle": "Previne uscarea excesivă după utilizarea plăcii de îndreptat",
+      "description": "Ureea și pantenolul păstrează umiditatea în interiorul firului de păr, prevenind uscarea și despicarea vârfurilor, menținând elasticitatea și sănătatea părului."
+    },
+    "6": {
+      "topText": "",
+      "title": "Volum și bogăție",
+      "subtitle": "Volum natural de la rădăcină",
+      "description": "Formula cu proteine și keratină fortifică firul de păr, oferindu-i volum de la rădăcină și un aspect bogat, fără a-l îngreuna."
+    }
+  },
+  "shampooImagesSection": {
+    "title": "CUM FUNCȚIONEAZĂ FORMULA ȘAMPONULUI AMINO ACIZI?",
+    "images": [
+      {
+        "src": "public/img/shampoo/1-shampoo.jpg",
+        "alt": "Sampon 1",
+        "descriptionTitle": "FRUMUSEȚEA ÎNCEPE CU PURITATEA",
+        "descriptionSubtitle": "Curățare profundă și delicată de toate impuritățile și reziduurile",
+        "description1": "Îndepărtarea insuficientă a produselor de styling, a sebumului și a murdăriei urbane înainte de aplicarea unor noi produse de styling duce la acumularea impurităților. Acestea limitează accesul oxigenului și al nutrienților, afectând negativ sănătatea părului. În rezultat, părul își pierde vitalitatea, devine tern și mai fragil. De aceea, o curățare profundă, dar delicată, este esențială. Acidul salicilic din compoziția șamponului îndepărtează reziduurile de styling, murdăria urbană, excesul de sebum și particulele de mătreață, curățând delicat scalpul și reglând producția de sebum. Acidul lactic - o alfa-hidroxi-acidă naturală, care, cu efectul său blând de exfoliere, stimulează producția de lipide protectoare. Aceste ingrediente asigură o curățare perfectă a părului, eliminând reziduurile de styling și sebum, și soluționează eficient problema seboreei.",
+        "description2": "Lăsați-vă părul să respire și să strălucească în toată splendoarea sa naturală!"
+      },
+      {
+        "src": "public/img/shampoo/2-shampoo.jpg",
+        "alt": "Sampon 2",
+        "descriptionTitle": "COCTEILUL DE AMINOACIZI. REDAȚI PUTEREA PĂRULUI DUMNEAVOASTRĂ!",
+        "descriptionSubtitle": "Nutriția intensă a părului – cheia rezistenței, strălucirii și elasticității acestuia!",
+        "description1": "Părul bine curățat creează condiții ideale pentru hidratare, nutriție și, implicit, pentru rezistență și vitalitate. Fără aportul necesar de nutrienți esențiali, precum aminoacizii, vitaminele și mineralele, structura internă a părului poate începe să se deterioreze. Acest lucru duce la fragilitate și rupere, subliniind importanța nutriției pe bază de aminoacizi. AMINO ACIZI este o adevărată comoară de aminoacizi. Keratina asigură rezistența și structura părului; аrginina - îmbunătățește circulația sângelui și stimulează creșterea; cisteina - repară părul deteriorat și susține formarea de keratină; glicina - hidratează și îmbunătățește textura părului; leucina - sprijină regenerarea țesuturilor și sănătatea părului.",
+        "description2": "Datorită acestui complex de aminoacizi, părul se transformă vizibil. Devine mai puternic, hidratat și radiant."
+      },
+      {
+        "src": "public/img/shampoo/3-shampoo.jpg",
+        "alt": "Sampon 3",
+        "descriptionTitle": "HIDRATARE PREMIUM PENTRU PĂRUL TĂU LUXOS",
+        "descriptionSubtitle": "Un meniu desăvârșit pentru părul tău chiar există!",
+        "description1": "Formula șamponului Amino Acizi conține Pantenol (provitamina B5), renumit pentru efectele sale hidratante. Acesta pătrunde în structura firului de păr, îmbunătățindu-i elasticitatea și rezistența. De asemenea, Pantenolul calmează scalpul, ajutând la vindecarea microrănilor și iritațiilor, fiind un ingredient ideal pentru pielea sensibilă sau deteriorată. Ureea joacă un rol important în menținerea hidratării, prevenind uscăciunea și descuamarea. Acest ingredient are efect keratolitic, exfoliind delicat celulele moarte ale pielii. Mentolul creează o senzație de prospețime și, în același timp, îmbunătățește microcirculația la nivelul pielii, favorizând o hrănire mai bună a foliculilor de păr. Mentolul are proprietăți antiseptice ușoare și calmează scalpul iritat.",
+        "description2": ""
+      },
+      {
+        "src": "public/img/shampoo/4-shampoo.jpg",
+        "alt": "Sampon 4",
+        "descriptionTitle": "pH 6-7. PĂRUL TĂU VA IUBI ACEST LUCRU! OFERĂ-I ACEASTĂ ÎNGRIJIRE!",
+        "descriptionSubtitle": "Vei fi uimită de cât de delicat și blând este acest șampon!",
+        "description1": "pH 6-7 este aproape de echilibrul natural acid-alcalin al părului și pielii, aducând multiple beneficii: Acțiune blândă - pH-ul din acest interval reduce riscul deteriorării cuticulelor, esențial pentru menținerea sănătății părului. Hidratare îmbunătățită - nivelul neutru de pH sprijină retenția optimă a umidității, prevenind uscarea excesivă a părului.Refacerea barierei lipidice - menținerea pH-ului corect ajută la protejarea și restaurarea barierei lipidice naturale a scalpului, esențială pentru apărarea împotriva factorilor externi. Prevenirea iritațiilor - evitarea unui pH prea alcalin sau acid reduce riscul de iritații și reacții alergice.Menținerea echilibrului natural - pH-ul 6-7 susține flora naturală a scalpului, contribuind la sănătatea sa pe termen lung.",
+        "description2": "Rezultatul? Părul tău va străluci de sănătate, va fi mai neted și mai rezistent. Mai puține încâlciri, mai multă flexibilitate în coafare. Alege pH-ul 6-7 pentru o îngrijire perfect echilibrată, oferind părului ceea ce merită cu adevărat!"
+      }
+    ]
+  },
+  "faqs": {
+    "title": "Întrebări frecvente",
+    "items": [
+      {
+        "question": "Cât de des ar trebui să-ți speli părul cu șampon?",
+        "answer": "De obicei, se recomandă spălarea părului de 2-3 ori pe săptămână. Totuși, acest lucru poate varia în funcție de tipul părului și stilul de viață. Persoanele cu păr gras pot să-l spele zilnic, iar cei cu păr uscat sau ondulat ar putea avea nevoie să-l spele mai rar."
+      },
+      {
+        "question": "Trebuie aplicat șamponul pe părul uscat sau umed?",
+        "answer": "Întotdeauna aplicați șamponul pe părul umed pentru o curățare eficientă. Asigurați-vă că masați bine scalpul pentru a stimula circulația."
+      },
+      {
+        "question": "Ce ingrediente sunt esențiale într-un șampon de calitate?",
+        "answer": "Ingrediente precum provitamina B5, biotina, uleiurile naturale (argan, jojoba) și extractele botanice sunt esențiale pentru hrănirea și sănătatea părului."
+      },
+      {
+        "question": "Cum pot să aleg șamponul potrivit pentru părul meu?",
+        "answer": "Identificați nevoile părului dvs. – hidratare, volum, protecția culorii sau restaurare – și alegeți un șampon formulat pentru aceste cerințe."
+      }
+    ]
+  }
+}

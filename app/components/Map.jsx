@@ -24,9 +24,10 @@ const markers = [
     image: '/img/map/2.png',
   },
   {
-    position: [46.99243412872698, 28.86501863340431],
-    title: 'Tatiana Braga Beauty Studio',
-    subtitle: "It's best in class, go stretch your a@@!",
+    position: [47.018677119196795, 28.83239329659408],
+    title: 'Tatiana Braga Beauty House',
+    subtitle:
+      'Sunt profesioniste care aduc transformarea în viața cliențelor, oferind servicii de hair styling, makeup, manichiură, pedichiură și masaj.',
     image: '/img/map/5.png',
   },
   {

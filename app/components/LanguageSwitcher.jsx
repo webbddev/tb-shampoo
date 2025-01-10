@@ -26,6 +26,7 @@ export default function LanguageSwitcher() {
       >
         <option value='en'>EN</option>
         <option value='ru'>RU</option>
+        <option value='ro'>ROM</option>
       </select>
     </label>
   );

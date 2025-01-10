@@ -48,82 +48,88 @@
     }
   },
   "hero": {
-    "title": "I'm Manu, Sir.",
-    "subtitle": "I'm a professional tattoo artist. I have been tattooing for 10 years. Tattoos have their own unique power and magic. They not only beautify the body but also the psyche.",
+    "title": "Amino Acizi",
+    "subtitle": "Amino acid shampoo for deep cleansing of hair and scalp with pH 6-7.",
+    "subtitle2": "T. Braga",
     "btnText": "read more",
     "btnIcon": "⇒"
   },
   "features": {
-    "title": "Shampoo Features",
+    "title": "YOUR PERSONAL STYLIST IN A BOTTLE",
     "1": {
-      "topText": "Every Wash Matters",
-      "title": "Nourishment",
-      "subtitle": "Hydrate Your Hair",
-      "description": "Experience the ultimate hydration with our nourishing shampoo, formulated to deeply moisturize and revitalize your hair."
+      "topText": "",
+      "title": "Radiant Hair",
+      "subtitle": "Restores healthy shine and radiance to hair",
+      "description": "Deep cleansing from styling product residue, sebum, and urban grime restores vitality and shine to hair, as accumulated impurities suffocate it from within, making it dull and brittle."
     },
     "2": {
-      "topText": "Every Wash Matters",
-      "title": "Cleansing",
-      "subtitle": "Cleanse Without Stripping",
-      "description": "Our gentle formula cleanses your hair without stripping away its natural oils, leaving it soft and manageable."
+      "topText": "",
+      "title": "Against Dandruff and Seborrhea",
+      "subtitle": "Eliminates dandruff from the first use. Effectively helps with seborrhea",
+      "description": "Salicylic and lactic acid cleanse the scalp from dead cells and regulate sebum production, possessing antibacterial action."
     },
     "3": {
-      "topText": "Every Wash Matters",
-      "title": "Volume",
-      "subtitle": "Boost Your Volume",
-      "description": "Add volume and bounce to your hair with our volumizing shampoo, designed to lift your roots and create a fuller, more voluminous look."
+      "topText": "",
+      "title": "Oil Control",
+      "subtitle": "Normalizes sebum balance",
+      "description": "The shampoo maintains a healthy sebum balance, which is especially important during adolescence when hormonal changes can cause excessive oiliness."
     },
     "4": {
-      "topText": "Every Wash Matters",
-      "title": "Color Protection",
-      "subtitle": "Preserve Your Color",
-      "description": "Maintain the vibrancy of your color-treated hair with our color-protecting shampoo, formulated to lock in color and prevent fading."
+      "topText": "",
+      "title": "Strengthening and Restoration",
+      "subtitle": "Reduces hair breakage and split ends",
+      "description": "An amino acid complex and panthenol actively nourish the hair, which significantly reduces its breakage and improves its health."
     },
     "5": {
-      "topText": "Every Wash Matters",
-      "title": "Reparation",
-      "subtitle": "Restore Your Hair",
-      "description": "Repair damaged hair and restore its strength and shine with our damage-repairing shampoo, enriched with nourishing ingredients."
+      "topText": "",
+      "title": "Maintains Moisture During Styling",
+      "subtitle": "Prevents excessive dryness after flat iron styling",
+      "description": "Urea and panthenol retain moisture inside the hair, preventing dryness and split ends, maintaining their health and elasticity."
     },
     "6": {
-      "topText": "Every Wash Matters",
-      "title": "Scalp Health",
-      "subtitle": "Soothe and Balance",
-      "description": "Maintain a healthy scalp with our gentle, soothing shampoo, formulated to reduce irritation and promote hair growth."
+      "topText": "",
+      "title": "Volume and Thickness",
+      "subtitle": "Gives hair volume from the roots",
+      "description": "A complex of proteins and keratin compacts the hair structure, lifting it from the roots and creating the effect of thick and voluminous hair without weighing it down."
     }
   },
-  "shampooImages": [
-    {
-      "src": "public/img/shampoo/1-shampoo.jpg",
-      "alt": "Shampoo 1",
-      "descriptionTitle": "Botanical Shine",
-      "description": "Revitalize your hair with our botanical-infused shampoo, designed to restore natural shine and promote healthy, voluminous locks."
-    },
-    {
-      "src": "public/img/shampoo/2-shampoo.jpg",
-      "alt": "Shampoo 2",
-      "descriptionTitle": "Deep Hydration",
-      "description": "Experience deep hydration with this nourishing shampoo, enriched with natural oils to strengthen and protect dry or damaged hair."
-    },
-    {
-      "src": "public/img/shampoo/3-shampoo.jpg",
-      "alt": "Shampoo 3",
-      "descriptionTitle": "Clarifying Cleanse",
-      "description": "A clarifying shampoo that removes build-up and impurities, leaving your scalp refreshed and hair clean without stripping natural moisture."
-    },
-    {
-      "src": "public/img/shampoo/4-shampoo.jpg",
-      "alt": "Shampoo 4",
-      "descriptionTitle": "Color Care",
-      "description": "This gentle, sulfate-free formula is perfect for color-treated hair, preserving vibrancy while keeping your strands soft and smooth."
-    },
-    {
-      "src": "public/img/shampoo/5-shampoo.jpg",
-      "alt": "Shampoo 5",
-      "descriptionTitle": "Antioxidant Protection",
-      "description": "Packed with antioxidants, this shampoo protects against environmental damage while promoting hair growth and scalp health."
-    }
-  ],
+  "shampooImagesSection": {
+    "title": "HOW DOES THE AMINO ACIZI SHAMPOO FORMULA WORK?",
+    "images": [
+      {
+        "src": "public/img/shampoo/1-shampoo.jpg",
+        "alt": "Shampoo 1",
+        "descriptionTitle": "Beauty Begins with Cleanliness",
+        "descriptionSubtitle": "Deep and gentle cleansing from all unnecessary microparticles and impurities",
+        "description1": "Insufficient removal of styling residues, sebum, and urban dirt before applying new styling products leads to a buildup of impurities. This limits the access of oxygen and nutrients, negatively affecting the condition of the hair. As a result, hair loses vitality, becomes dull, and more brittle. This is why deep but gentle cleansing is so important. Salicylic acid in the shampoo removes previous styling, urban dirt, excess sebum, and dandruff particles, gently cleansing the scalp and regulating sebum production. Assisting it is lactic acid - a natural alpha hydroxy acid. With a mild exfoliating effect, lactic acid stimulates the production of protective lipids. These components ensure perfect hair cleanliness, freeing it from styling residues and sebum, while effectively addressing the problem of seborrhea.",
+        "description2": "Let your hair breathe and shine with its natural radiance!"
+      },
+      {
+        "src": "public/img/shampoo/2-shampoo.jpg",
+        "alt": "Shampoo 2",
+        "descriptionTitle": "AMINO ACID COCKTAIL: RESTORE YOUR HAIR'S STRENGTH!",
+        "descriptionSubtitle": "Enhanced hair nourishment is the key to strength, shine, and elasticity!",
+        "description1": "Thoroughly cleansed hair creates ideal conditions for hydration, nourishment, and, consequently, for strength and resilience. Without the supply of essential nutrients such as amino acids, vitamins, and minerals, the internal structure of the hair may begin to break down. This leads to fragility and breakage, highlighting the importance of amino acid nourishment. AMINO ACIZI is a treasure trove of amino acids. Keratin provides strength and structure to the hair; arginine improves blood circulation and stimulates growth; cysteine restores damaged hair and promotes keratin production; glycine hydrates and improves texture; leucine supports tissue repair and hair health.",
+        "description2": "Thanks to this amino acid complex, hair is transformed before your eyes. It becomes strong, hydrated, and radiant."
+      },
+      {
+        "src": "public/img/shampoo/3-shampoo.jpg",
+        "alt": "Shampoo 3",
+        "descriptionTitle": "PREMIUM HYDRATION FOR LUXURIOUS HAIR",
+        "descriptionSubtitle": "An exquisite menu for your hair exists!",
+        "description1": "The Amino Acizi shampoo formula contains Panthenol (provitamin B5), known for its moisturizing properties. It penetrates the hair shaft, improving its elasticity and strength. Panthenol also soothes the scalp, promoting the healing of microcracks and irritations, making it an ideal ingredient for sensitive or damaged skin. Urea helps retain moisture, preventing dryness and flaking. This ingredient has keratolytic properties, gently exfoliating dead skin cells. Menthol creates a refreshing sensation and improves scalp microcirculation, enhancing the nutrition of hair follicles. Menthol also has mild antiseptic properties and soothes irritated skin.",
+        "description2": ""
+      },
+      {
+        "src": "public/img/shampoo/4-shampoo.jpg",
+        "alt": "Shampoo 4",
+        "descriptionTitle": "pH 6-7: YOUR HAIR LOVES IT! GIVE IT THIS!",
+        "descriptionSubtitle": "Be amazed at how gentle and caring this shampoo is!",
+        "description1": "pH 6-7 is as close as possible to the natural acid-alkaline balance of hair and skin, which truly brings a range of benefits. Gentler effect - a pH in this range minimizes the risk of cuticle damage, which is important for maintaining hair health. Improved hydration - a neutral pH level promotes better moisture retention, leaving hair more hydrated and less prone to drying out. Lipid barrier restoration - maintaining the correct pH level helps preserve and restore the natural lipid barrier of the scalp, which is important for protection against external influences. Irritation prevention - avoiding excessive alkaline or acidic exposure can reduce the risk of irritation and allergic reactions. Maintaining natural balance - pH 6-7 helps sustain the natural microflora of the scalp, which is important for its health.",
+        "description2": "As a result, hair appears shinier, smoother, and stronger. It tangles less and is easier to style, making pH 6-7 a winning choice for hair care. Give your hair what it truly needs!"
+      }
+    ]
+  },
   "faqs": {
     "title": "Frequently Asked Questions",
     "items": [

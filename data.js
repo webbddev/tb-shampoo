@@ -222,13 +222,6 @@ export const shampooData = {
       description:
         'This gentle, sulfate-free formula is perfect for color-treated hair, preserving vibrancy while keeping your strands soft and smooth.',
     },
-    {
-      src: ShampooImg5,
-      alt: 'Shampoo 5',
-      descriptionTitle: 'Antioxidant Protection',
-      description:
-        'Packed with antioxidants, this shampoo protects against environmental damage while promoting hair growth and scalp health.',
-    },
   ],
 };
 

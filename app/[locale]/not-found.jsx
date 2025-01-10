@@ -1,28 +1,30 @@
 'use client';
 
 import Link from 'next/link';
-import { IoMdArrowForward } from 'react-icons/io';
+import { motion } from 'framer-motion';
+import { fadeIn } from '../variants';
 
 export default function NotFound() {
   return (
-    <>
-      <main className='flex flex-col items-center justify-center min-h-screen text-center'>
-        <h2 className='text-3xl mb-2 h2'>There was a problem.</h2>
-        <p className='font-light mb-2'>
-          We could not find the page you were looking for!
+    <div className='min-h-screen flex items-center justify-center bg-dark text-white'>
+      <motion.div
+        variants={fadeIn('up')}
+        initial='hidden'
+        animate='show'
+        className='text-center px-4'
+      >
+        <h1 className='font-oswald text-6xl mb-4'>404</h1>
+        <h2 className='font-rozha text-2xl mb-6'>Page Not Found</h2>
+        <p className='font-secondary mb-8'>
+          The page you are looking for doesn't exist or has been moved.
         </p>
-        <p className='font-light flex items-center'>
-          Go back
-          <Link href='/' className='underline text-gray-600 ml-2'>
-            <button
-              className='flex items-center btn btn-lg btn-link font-normal'
-              aria-label='Back to Home'
-            >
-              {<IoMdArrowForward />} Home
-            </button>
-          </Link>
-        </p>
-      </main>
-    </>
+        <Link
+          href='/'
+          className='font-oswald inline-block py-3 px-8 border border-white hover:bg-white hover:text-dark transition-all duration-300'
+        >
+          Go Back Home
+        </Link>
+      </motion.div>
+    </div>
   );
 }

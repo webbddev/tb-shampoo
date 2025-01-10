@@ -17,6 +17,7 @@ import {
   Copyright,
 } from '../components';
 import Loading from '../components/loading';
+import ProductImages from '@/components/ProductImages';
 
 export default function Home() {
   const DynamicMap = dynamic(() => import('../components/Map'), {
@@ -29,16 +30,16 @@ export default function Home() {
       <Header />
       <Hero />
       <Features/>
-      <About />
-      {/* <ProductDescriptionGallery/> */}
-      <ShampooRotatedDescription />
+      {/* <About /> */}
+      {/* <ShampooRotatedDescription /> */}
+      <ProductImages />
       <FAQs/>
       {/* <GallerySection />  */}
       {/* <Skills /> */}
       <Testimonial />
-      <Interview />
+      {/* <Interview /> */}
       <Contact />
-      <DynamicMap />
+      {/* <DynamicMap /> */}
       <Footer />
       <Copyright />
     </main>
