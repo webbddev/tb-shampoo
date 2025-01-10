@@ -17,7 +17,6 @@ import {
   Copyright,
 } from '../components';
 import Loading from '../components/loading';
-import ProductImages from '@/components/ProductImages';
 
 export default function Home() {
   const DynamicMap = dynamic(() => import('../components/Map'), {
@@ -32,7 +31,7 @@ export default function Home() {
       <Features/>
       {/* <About /> */}
       {/* <ShampooRotatedDescription /> */}
-      <ProductImages />
+      {/* <ProductImages /> */}
       <FAQs/>
       {/* <GallerySection />  */}
       {/* <Skills /> */}
