@@ -1,18 +1,17 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { faqQuestions } from '../../data';
 import AccordionItemFAQ from './AccordionItemFAQ';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 
 const FAQs = () => {
   const t = useTranslations('faqs');
+  const faqItems = t.raw('items');
 
   return (
     <section id='faqs' className='section'>
       <div className='container mx-auto'>
-        {/* FAQ Title */}
         <motion.h2
           variants={fadeIn('up')}
           initial='hidden'
@@ -22,10 +21,13 @@ const FAQs = () => {
         >
           {t('title')}
         </motion.h2>
-        {/* FAQ Items */}
         <div className='space-y-6'>
-          {faqQuestions.map((item, index) => (
-            <AccordionItemFAQ key={item.question} item={item} index={index} />
+          {faqItems.map((faqItem, index) => (
+            <AccordionItemFAQ
+              key={faqItem.question}
+              item={faqItem}
+              index={index}
+            />
           ))}
         </div>
       </div>

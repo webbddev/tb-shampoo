@@ -241,17 +241,7 @@ export const faqQuestions = [
     question: 'How much shampoo should I use?',
     answer:
       'Use a coin-sized amount for short hair, and adjust the amount based on your hair length and thickness. Using too much can leave residue, while too little may not clean adequately.',
-  },
-  {
-    question: 'Can I use shampoo as a body wash?',
-    answer:
-      "Shampoo is formulated specifically for hair and may not be ideal for skin. While it may not harm you in an emergency, it's best to use a body wash, as shampoo may not effectively cleanse or moisturize skin.",
-  },
-  {
-    question: 'Do I need to shampoo twice in one wash?',
-    answer:
-      'Double shampooing can be beneficial if you use heavy styling products or have oily hair. The first wash removes buildup, and the second ensures a deep clean. However, it’s not necessary for everyone and may dry out some hair types.',
-  },
+  }
 ];
 
 // Gallery with images

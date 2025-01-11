@@ -29,14 +29,14 @@ export default function Home() {
       <Header />
       <Hero />
       <Features/>
-      {/* <About /> */}
+      <About />
+      <Interview />
       {/* <ShampooRotatedDescription /> */}
       {/* <ProductImages /> */}
       <FAQs/>
       {/* <GallerySection />  */}
       {/* <Skills /> */}
       <Testimonial />
-      {/* <Interview /> */}
       <Contact />
       {/* <DynamicMap /> */}
       <Footer />

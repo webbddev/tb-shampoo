@@ -5,14 +5,17 @@
     "gallery": "Gallery",
     "interview": "Interview",
     "faqs": "FAQs",
+    "testimonial": "Testimonial",
     "contact": "Contact"
   },
   "about": {
-    "title": "My Story:",
-    "subtitle1": "I've dedicated many years to developing formulas to create a shampoo that not only cleanses but also nourishes your hair from root to tip. For me, beautiful hair is a reflection of your unique self.",
-    "subtitle2": "My mission is to give you confidence. Every time you use my shampoo, you'll experience not just cleanliness but also strength, health, and the radiance of your hair.",
-    "subtitle3": "Join me and discover the secrets of luxurious hair.",
-    "btnText": "Know more",
+    "title": "My Story of Creating the Shampoo",
+    "paragraph1": "After 20 years of activity as a stylist, I constantly faced my clients' problems: dull hair, dandruff, fragile ends. I set out to find an efficient solution.",
+    "paragraph2": "Diving into the world of cosmetic chemistry, I spent years in laboratories, studying the influence of different ingredients on hair structure. Dozens of experiments and careful analysis of the results led to the creation of a unique formula.",
+    "paragraph3": "The AMINO ACID shampoo with a pH of 6-7 embodies my desire to help people solve frequent hair problems and improve the quality of hair care.",
+    "paragraph4": "To my clients: your trust and feedback were invaluable in the creation process of this product. Now, with pride, I present it to a wider audience, knowing it truly works.",
+    "paragraph5": "Tatiana Braga, Chief Stylist of Moldova.",
+    "btnText": "Read more",
     "btnIcon": "<IoMdArrowForward />"
   },
   "contact": {
@@ -134,28 +137,49 @@
     "title": "Frequently Asked Questions",
     "items": [
       {
-        "question": "How often should I use shampoo?",
-        "answer": "It's generally recommended to wash your hair with shampoo 2-3 times per week. However, this may vary depending on your hair type and lifestyle. Those with oily hair might shampoo daily, while those with dry or curly hair may shampoo less often."
+        "question": "Is the shampoo suitable for daily use?",
+        "answer": "Yes, pH 6-7 makes it safe for daily application."
       },
       {
-        "question": "Should I apply shampoo to dry or wet hair?",
-        "answer": "Always apply shampoo to wet hair. Start by thoroughly soaking your hair with water before applying shampoo to ensure it lathers well and cleans effectively."
+        "question": "Does the shampoo contain sulfates or parabens?",
+        "answer": "No, our shampoo does not contain harmful chemicals."
       },
       {
-        "question": "How much shampoo should I use?",
-        "answer": "Use a coin-sized amount for short hair, and adjust the amount based on your hair length and thickness. Using too much can leave residue, while too little may not clean adequately."
+        "question": "Is it suitable for colored hair?",
+        "answer": "Yes, the shampoo gently cleanses and does not wash out the color."
       },
       {
-        "question": "Can I use shampoo as a body wash?",
-        "answer": "Shampoo is formulated specifically for hair and may not be ideal for skin. While it may not harm you in an emergency, it's best to use a body wash, as shampoo may not effectively cleanse or moisturize skin."
+        "question": "How quickly will the results be visible?",
+        "answer": "Improvements are noticeable after the first application, but for maximum effect, regular use is recommended."
       },
       {
-        "question": "Do I need to shampoo twice in one wash?",
-        "answer": "Double shampooing can be beneficial if you use heavy styling products or have oily hair. The first wash removes buildup, and the second ensures a deep clean. However, it’s not necessary for everyone and may dry out some hair types."
+        "question": "Can it be used on children?",
+        "answer": "The shampoo is safe for children over 3 years old."
+      },
+      {
+        "question": "I have sensitive scalp skin. Is it suitable for me?",
+        "answer": "Yes, the gentle formula is suitable even for sensitive skin."
+      },
+      {
+        "question": "Is it true that the shampoo helps with seborrhea?",
+        "answer": "Yes, it's true. AMINO ACIZI is effective against seborrhea due to its specially selected composition. Salicylic acid, urea, and panthenol work together to have a powerful impact."
+      },
+      {
+        "question": "Is it true that amino acids help restore hair if it's considered \"dead\"?",
+        "answer": "Although the visible part of the hair consists of dead cells, this doesn't mean they can't be improved. Amino acids in AMINO ACIZI work as follows: Penetrate the hair structure, filling in micro-damage and strengthening it from the inside. Create a protective film around the hair, preventing further damage. Improve the hair's ability to retain moisture, making it more elastic and less brittle. Restore keratin bonds, improving strength and appearance. Nourish and strengthen hair roots and scalp, promoting the growth of healthier new hair. So, although we can't \"revive\" hair, we can significantly improve its condition and appearance with the amino acids in AMINO ACIZI."
+      },
+      {
+        "question": "How economical is the AMINO ACIZI shampoo?",
+        "answer": "Concentrated formula: A small amount is enough for a thorough hair wash."
+      },
+      {
+        "question": "Why doesn't the AMINO ACIZI shampoo lather as much as regular shampoos?",
+        "answer": "AMINO ACIZI is created with care for your hair and the environment: Less chemistry - more benefits. We intentionally reduced the amount of artificial foaming agents, preferring natural components. If you find the shampoo doesn't lather enough on your hair, dilute it with a small amount of water in a glass and wash your hair with that water. Our shampoo proves that aggressive chemicals are not needed for hair beauty and health!"
       }
     ]
   },
   "testimonial": {
+    "title": "Reviews",
     "slides": [
       {
         "message": "I've tried so many shampoos, but this one is a game-changer. It's so gentle yet effective, my hair feels healthier and looks shinier than ever. My boyfriend can't get enough of it. I'm absolutely thrilled with the results.",
@@ -198,6 +222,7 @@
         "gallery": { "name": "My gallery" },
         "interview": { "name": "My interview" },
         "faqs": { "name": "FAQs" },
+        "testimonial": { "name": "Reviews" },
         "contact": { "name": "Contact me" }
       }
     },

@@ -14,6 +14,7 @@ const Testimonial = () => {
 
   return (
     <motion.section
+      id='testimonial'
       variants={fadeIn('up')}
       initial='hidden'
       whileInView={'show'}
@@ -21,6 +22,16 @@ const Testimonial = () => {
       className='py-[40px] lg:pb-[160px] lg:pt-0'
     >
       <div className='container mx-auto'>
+        {/* Title Section */}
+        <motion.h2
+          variants={fadeIn('up')}
+          initial='hidden'
+          whileInView={'show'}
+          viewport={{ once: false, amount: 0.6 }}
+          className='h2 max-w-[600px] text-gray-800 font-oswald mb-8 3xl:mb-16'
+        >
+          {t('title')}
+        </motion.h2>
         <Swiper>
           {[0, 1].map((index) => (
             <SwiperSlide key={index}>

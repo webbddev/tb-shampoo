@@ -5,13 +5,16 @@
     "gallery": "Galerie",
     "interview": "Interviu",
     "faqs": "Întrebări frecvente",
+    "testimonial": "Recenzii",
     "contact": "Contact"
   },
   "about": {
     "title": "Povestea mea despre crearea șamponului",
-    "subtitle1": "Am dedicat mulți ani dezvoltării formulelor pentru a crea un șampon care nu doar curăță părul, ci îl hrănește de la rădăcină până la vârfuri. Pentru mine, părul frumos este o reflecție a unicitații tale.",
-    "subtitle2": "Misiunea mea este să îți ofer încredere în tine. De fiecare dată când folosești șamponul meu, simți nu doar curățenie, ci și putere, sănătate și strălucire în părul tău.",
-    "subtitle3": "Alătură-te mie și descoperă secretele unui păr luxos.",
+    "paragraph1": "După 20 de ani de activitate ca stilist, m-am confruntat constant cu problemele clienților: părul lipsit de strălucire, mătreața, fragilitatea vârfurilor. Mi-am propus să găsesc o soluție eficientă.",
+    "paragraph2": "Împătrându-mă în lumea chimiei cosmetice, am petrecut ani de zile în laboratoare, studiind influența diferitelor ingrediente asupra structurii părului. Zecile de experimente și analiza atentă a rezultatelor au dus la crearea unei formule unice.",
+    "paragraph3": "Șamponul AMINO ACIZI cu pH 6-7 întruchipează dorința mea de a ajuta oamenii să rezolve problemele frecvente cu părul și să îmbunătățească calitatea îngrijirii acestuia.",
+    "paragraph4": "Pentru clienții mei: încrederea și feedback-ul vostru au fost neprețuite în procesul de creație a acestui produs. Acum, cu mândrie, îl prezint unei audiențe largi, știind că funcționează cu adevărat.",
+    "paragraph5": "Tatiana Braga, stilist principal al Moldovei.",
     "btnText": "Află mai multe",
     "btnIcon": "<IoMdArrowForward />"
   },
@@ -134,21 +137,111 @@
     "title": "Întrebări frecvente",
     "items": [
       {
-        "question": "Cât de des ar trebui să-ți speli părul cu șampon?",
-        "answer": "De obicei, se recomandă spălarea părului de 2-3 ori pe săptămână. Totuși, acest lucru poate varia în funcție de tipul părului și stilul de viață. Persoanele cu păr gras pot să-l spele zilnic, iar cei cu păr uscat sau ondulat ar putea avea nevoie să-l spele mai rar."
+        "question": "Este șamponul potrivit pentru utilizare zilnică?",
+        "answer": "Da, pH-ul 6-7 îl face sigur pentru aplicarea zilnică."
       },
       {
-        "question": "Trebuie aplicat șamponul pe părul uscat sau umed?",
-        "answer": "Întotdeauna aplicați șamponul pe părul umed pentru o curățare eficientă. Asigurați-vă că masați bine scalpul pentru a stimula circulația."
+        "question": "Conține sulfati sau parabeni?",
+        "answer": "Nu, șamponul nostru nu conține substanțe chimice dăunătoare."
       },
       {
-        "question": "Ce ingrediente sunt esențiale într-un șampon de calitate?",
-        "answer": "Ingrediente precum provitamina B5, biotina, uleiurile naturale (argan, jojoba) și extractele botanice sunt esențiale pentru hrănirea și sănătatea părului."
+        "question": "Este potrivit pentru părul vopsit?",
+        "answer": "Da, șamponul curăță delicat fără a spăla culoarea."
       },
       {
-        "question": "Cum pot să aleg șamponul potrivit pentru părul meu?",
-        "answer": "Identificați nevoile părului dvs. – hidratare, volum, protecția culorii sau restaurare – și alegeți un șampon formulat pentru aceste cerințe."
+        "question": "Cât de repede se vor vedea rezultatele?",
+        "answer": "Îmbunătățirile sunt vizibile după prima utilizare, dar pentru un efect maxim, se recomandă utilizarea regulată."
+      },
+      {
+        "question": "Poate fi utilizat de copii?",
+        "answer": "Șamponul este sigur pentru copiii de peste 3 ani."
+      },
+      {
+        "question": "Am pielea capului sensibilă. Este potrivit pentru mine?",
+        "answer": "Da, formula delicată este potrivită chiar și pentru pielea sensibilă."
+      },
+      {
+        "question": "Este adevărat că șamponul ajută la seboree?",
+        "answer": "Da, este adevărat. AMINO ACIZI este eficient împotriva seboreei datorită formulei special concepute. Acidul salicilic, ureea și pantenolul acționează sinergic pentru un impact puternic."
+      },
+      {
+        "question": "Este adevărat că aminoacizii ajută la regenerarea părului considerat \"mort\"?",
+        "answer": "Deși partea vizibilă a părului constă din celule moarte, acest lucru nu înseamnă că nu poate fi îmbunătățit. Aminoacizii din AMINO ACIZI acționează astfel: Penetrează structura firului de păr, umplând microdeteriorările și întărind părul din interior. Creează un film protector în jurul firului de păr, prevenind daunele ulterioare. Îmbunătățesc capacitatea părului de a reține umezeala, făcându-l mai elastic și mai puțin fragil. Restaurarea legăturilor de cheratină îmbunătățește rezistența și aspectul. Hrănesc și întăresc rădăcinile părului și scalpul, sprijinind creșterea unor fire de păr noi, mai sănătoase. Astfel, deși nu putem \"revitaliza\" părul, putem îmbunătăți semnificativ starea și aspectul acestuia cu ajutorul aminoacizilor din AMINO ACIZI."
+      },
+      {
+        "question": "Cât de economic este șamponul AMINO ACIZI?",
+        "answer": "Formula concentrată: O cantitate mică este suficientă pentru o spălare completă a părului."
+      },
+      {
+        "question": "De ce șamponul AMINO ACIZI nu face atâta spumă ca șampoanele obișnuite?",
+        "answer": "AMINO ACIZI este creat cu grijă pentru părul dumneavoastră și pentru mediu: Mai puțină chimie - mai multe beneficii. Am redus intenționat cantitatea de spumante artificiale, preferând componentele naturale. Dacă simțiți că vă lipsește volumul șamponului pe păr, diluați-l cu o cantitate mică de apă într-un pahar și spălați-vă părul cu acea apă. Șamponul nostru demonstrează că nu sunt necesare substanțe chimice agresive pentru frumusețea și sănătatea părului!"
       }
     ]
+  },
+  "testimonial": {
+    "title": "Recenzii",
+    "slides": [
+      {
+        "message": "Am încercat multe șampoane, dar acesta este cu adevărat revoluționar. Este atât de delicat și eficient, părul meu se simte mai sănătos și arată mai strălucitor ca niciodată. Prietenul meu nu se mai satură de el. Sunt absolut încântată de rezultate.",
+        "name": "Olivia Gordis",
+        "occupation": "Jurnalist"
+      },
+      {
+        "message": "Acest șampon este pur și simplu magic! Părul meu a devenit mai des, mai moale și mai ușor de aranjat. Sunt foarte mulțumită de rezultate. Îl recomand tuturor!",
+        "name": "Olga",
+        "occupation": "Stilist"
+      }
+    ]
+  },
+  "interview": {
+    "title": "Părul dvs. - pânza dvs. Lăsați șamponul nostru handmade să fie pensula dvs. artistică.",
+    "btnText": "Vedeți acum"
+  },
+  "footer": {
+    "about": {
+      "title": "Șamponul dvs. vă așteaptă aici",
+      "subtitle": "Drumul dvs. către părul perfect începe aici. Explorați colecția noastră.",
+      "address": {
+        "icon": "<FaMapMarkerAlt/>",
+        "name": "1630 Elm Drive, New York"
+      },
+      "phone": {
+        "icon": "<FaPhoneAlt/>",
+        "number": "+49 34 36573355"
+      },
+      "email": {
+        "icon": "<FaEnvelope/>",
+        "address": "contact@yourcompany.com"
+      }
+    },
+    "links": {
+      "title": "Linkuri utile",
+      "items": {
+        "home": { "name": "Acasă" },
+        "about": { "name": "Despre noi" },
+        "gallery": { "name": "Galeria noastră" },
+        "interview": { "name": "Interviul meu" },
+        "faqs": { "name": "Întrebări frecvente" },
+        "testimonial": { "name": "Recenzii" },
+        "contact": { "name": "Contactați-ne" }
+      }
+    },
+    "program": {
+      "title": "Program de lucru",
+      "items": [
+        { "name": "Luni - Marți / La cerere" },
+        { "name": "Miercuri - Vineri / 10:00 - 21:00" },
+        { "name": "Sâmbătă / 10:00 - 18:00" },
+        { "name": "Duminică / Închis" }
+      ]
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "subtitle": "Abonați-vă la newsletter-ul nostru pentru a fi primii care află despre noile noastre lucrări și oferte speciale.",
+      "form": {
+        "placeholder": "Adresa dvs. de email",
+        "icon": "<FiSend/>"
+      }
+    }
   }
 }

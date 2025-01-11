@@ -5,6 +5,7 @@ export const navConfig = {
     { key: 'gallery', hash: '#gallery' },
     { key: 'interview', hash: '#interview' },
     { key: 'faqs', hash: '#faqs' },
+    { key: 'testimonial', hash: '#testimonial' },
     { key: 'contact', hash: '#contact' },
   ],
 };

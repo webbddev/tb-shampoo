@@ -10,26 +10,22 @@ import { IoMdArrowForward } from 'react-icons/io';
 import { fadeIn } from '../variants';
 
 const About = () => {
-  // const { title, subtitle1, subtitle2, subtitle3, btnText, btnIcon } =
-  //   aboutData;
   const [isButtonClicked, setIsButtonClicked] = useState(false);
-    const t = useTranslations('about');
-
+  const t = useTranslations('about');
 
   return (
     <section id='about' className='lg:py-16 xl:pb-[160px]'>
-      <div className='container mx-auto  2xl:w-[1360px] 3xl:w-[1410px]'>
+      <div className='container mx-auto 2xl:w-[1360px] 3xl:w-[1410px]'>
         <div className='flex flex-col lg:flex-row gap-x-[70px] items-center'>
           {/* numbers */}
           <motion.div
             variants={fadeIn('right')}
-            // initial='visible'
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.7 }}
             className='flex flex-col lg:flex-row flex-1'
           >
-            <div className='text-[300px] xl:text-[460px] 2xl:text-[500px] leading-none font-rozha lg:-tracking-[0.021em]  bg-about_img bg-no-repeat bg-right bg-clip-text text-transparent overflow-visible'>
+            <div className='text-[300px] xl:text-[460px] 2xl:text-[500px] leading-none font-rozha lg:-tracking-[0.021em] bg-about_img bg-no-repeat bg-right bg-clip-text text-transparent overflow-visible'>
               TB
             </div>
           </motion.div>
@@ -45,10 +41,15 @@ const About = () => {
             <h2 className='h2'>{t('title')}</h2>
             <div className='flex flex-col items-end'>
               <div className='font-light max-w-[590px] text-grey'>
-                <p className='p mb-6'>{t('subtitle1')}</p>
-                <p className='p mb-9'>{t('subtitle2')}</p>
+                <p className='p mb-6'>{t('paragraph1')}</p>
+                <p className='p mb-9'>{t('paragraph2')}</p>
+                <p className='p mb-9'>{t('paragraph3')}</p>
+
                 {isButtonClicked ? (
-                  <p className='p mb-9'>{t('subtitle3')}</p>
+                  <>
+                    <p className='p mb-9'>{t('paragraph4')}</p>
+                    <p className='p mb-9'>{t('paragraph5')}</p>
+                  </>
                 ) : (
                   <button
                     className='btn btn-lg btn-link font-normal'
@@ -56,7 +57,9 @@ const About = () => {
                     aria-label='Reveal More Text'
                   >
                     {t('btnText')}{' '}
-                    <div className='text-xl'>{<IoMdArrowForward/>}</div>
+                    <span className='text-xl'>
+                      <IoMdArrowForward />
+                    </span>
                   </button>
                 )}
               </div>
