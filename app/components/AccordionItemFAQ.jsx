@@ -1,12 +1,10 @@
 'use client';
 
 import { useState } from 'react';
-import { useTranslations } from 'next-intl';
 import { FiPlus } from 'react-icons/fi';
 
 const AccordionItemFAQ = ({ item, index }) => {
   const [isAccordionOpen, setIsAccordionOpen] = useState(false);
-  const t = useTranslations('faqs');
 
   return (
     <div className='mx-auto md:w-[83vw] xl:w-[980px] 2xl:w-[70vw] 3xl:w-[55vw] border-b border-gray-600'>
@@ -16,7 +14,9 @@ const AccordionItemFAQ = ({ item, index }) => {
         aria-expanded={isAccordionOpen}
       >
         {/* Question text */}
-        <h4 className='flex-1 h4 font-oswald uppercase tracking-wide text-left'>{item.question}</h4>
+        <h4 className='flex-1 h4 font-oswald uppercase tracking-wide text-left'>
+          {item.question}
+        </h4>
         {/* Icon container */}
         <div
           className={`transform transition-transform duration-300 ease-in-out ${

@@ -23,7 +23,7 @@ const Contact = () => {
   // State to manage form submission status and prevent multiple submissions
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const offices = ['la', 'nyc'];
+  const offices = [ 'nyc'];
 
   const handleSubmit = async (formData) => {
     try {
@@ -71,7 +71,7 @@ const Contact = () => {
                     {t(`offices.${office}.title`)}
                   </div>
                   {/* subtitle */}
-                  <div className='font-thin mb-6 text-[#333] leading-[187%] tracking-[0.02em]'>
+                  <div className='font-thin mb-6 text-[#333] leading-[187%] tracking-[0.02em] max-w-lg'>
                     {t(`offices.${office}.subtitle`)}
                   </div>
                   {/* address, phone & email */}
@@ -110,11 +110,11 @@ const Contact = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.4 }}
-            className='flex-1 xl:pl-[40px] flex justify-center items-center'
+            className='flex-1 xl:pl-[40px] flex justify-center items-end'
           >
             <form
               ref={formRef}
-              className='flex flex-col gap-y-10 w-full font-thin'
+              className='flex flex-col gap-y-6 w-full font-thin'
               action={handleSubmit}
               onSubmit={(e) => {
                 // Prevent form submission if already submitting

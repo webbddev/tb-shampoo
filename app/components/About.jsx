@@ -14,7 +14,7 @@ const About = () => {
   const t = useTranslations('about');
 
   return (
-    <section id='about' className='lg:py-16 xl:pb-[160px]'>
+    <section id='about' className='section'>
       <div className='container mx-auto 2xl:w-[1360px] 3xl:w-[1410px]'>
         <div className='flex flex-col lg:flex-row gap-x-[70px] items-center'>
           {/* numbers */}

@@ -24,8 +24,8 @@ export default function LanguageSwitcher() {
         onChange={onSelectChange}
         disabled={isPending}
       >
-        <option value='en'>EN</option>
-        <option value='ru'>RU</option>
+        <option value='en'>ENG</option>
+        <option value='ru'>RUS</option>
         <option value='ro'>ROM</option>
       </select>
     </label>

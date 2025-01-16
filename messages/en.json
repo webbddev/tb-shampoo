@@ -21,14 +21,6 @@
   "contact": {
     "title": "Get in touch with me:",
     "offices": {
-      "la": {
-        "title": "LA office",
-        "subtitle": "In velit arcu posuere integer sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus",
-        "address": "784 Norman Street, Los Angeles",
-        "phone": "+49 93 30493943",
-        "email": "contact@yourcompany.com",
-        "link": "Get location"
-      },
       "nyc": {
         "title": "NYC office",
         "subtitle": "Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus",
@@ -132,6 +124,10 @@
         "description2": "As a result, hair appears shinier, smoother, and stronger. It tangles less and is easier to style, making pH 6-7 a winning choice for hair care. Give your hair what it truly needs!"
       }
     ]
+  },
+  "productImages": {
+    "title": "Experience the Power of Amino Acizi",
+    "subTitle": "Check out these new arrivals as well"
   },
   "faqs": {
     "title": "Frequently Asked Questions",

@@ -26,8 +26,7 @@ const Copyright = () => {
             Tatiana Braga Shampoo
           </span>{' '}
           All right reserved
-          {/* <div> */}
-          <p className='text-gray-400 text-sm'>
+          {/* <p className='text-gray-400 text-sm'>
             Icon design by{' '}
             <a
               href='https://thenounproject.com/creator/valeriy25/'
@@ -47,8 +46,7 @@ const Copyright = () => {
               the Noun Project
             </a>{' '}
             (CC BY 3.0)
-          </p>
-          {/* </div> */}
+          </p> */}
         </motion.div>
       </div>
     </div>

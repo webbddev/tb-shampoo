@@ -13,6 +13,7 @@ import {
   Interview,
   Skills,
   Testimonial,
+  ProductImages,
   Footer,
   Copyright,
 } from '../components';
@@ -21,6 +22,7 @@ import Loading from '../components/loading';
 export default function Home() {
   const DynamicMap = dynamic(() => import('../components/Map'), {
     loading: () => <Loading />,
+
     ssr: false,
   });
 
@@ -31,14 +33,14 @@ export default function Home() {
       <Features/>
       <About />
       <Interview />
-      {/* <ShampooRotatedDescription /> */}
-      {/* <ProductImages /> */}
+      <ShampooRotatedDescription />
+      <ProductImages />
       <FAQs/>
       {/* <GallerySection />  */}
       {/* <Skills /> */}
       <Testimonial />
       <Contact />
-      {/* <DynamicMap /> */}
+      <DynamicMap />
       <Footer />
       <Copyright />
     </main>

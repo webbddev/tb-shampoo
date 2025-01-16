@@ -14,7 +14,7 @@ const FeaturesCard = ({ featureNumber, index }) => {
   const description = t(`${featureNumber}.description`);
 
   return (
-    <div className='w-full h-[95%] mx-auto bg-white shadow-md rounded-lg p-4 3xl:p-6 mt-2 flex flex-col relative'>
+    <div className='w-full h-[95%] mx-auto bg-white shadow-md rounded-lg p-[12px] 3xl:p-6 mt-2 flex flex-col relative'>
       {/* Top Text */}
       {/* <p className='text-sm uppercase tracking-widest text-neutral-800 z-10'> */}
         {/* {topText} */}
