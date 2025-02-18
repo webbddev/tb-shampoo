@@ -19,7 +19,7 @@ const Features = () => {
         initial='hidden'
         whileInView={'show'}
         viewport={{ once: false, amount: 0.6 }}
-        className='h2 max-w-[1030px] text-gray-800 font-oswald mb-7 3xl:mb-24'
+        className='h2 text-left max-w-[930px] text-gray-800 font-oswald mb-14 3xl:mb-40'
       >
         {t('title')}
       </motion.h2>

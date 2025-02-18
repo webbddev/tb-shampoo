@@ -30,12 +30,12 @@ export default function Home() {
     <main className='w-full max-w-full mx-auto overflow-hidden bg-white'>
       <Header />
       <Hero />
-      <Features/>
+      <Features />
       <About />
       <Interview />
       <ShampooRotatedDescription />
       <ProductImages />
-      <FAQs/>
+      <FAQs />
       {/* <GallerySection />  */}
       {/* <Skills /> */}
       <Testimonial />
@@ -46,4 +46,3 @@ export default function Home() {
     </main>
   );
 }
-

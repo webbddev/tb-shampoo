@@ -62,11 +62,11 @@ const Hero = () => {
         </motion.div>
 
         {/* sliding text */}
-        <motion.div
+        {/* <motion.div
           variants={fadeIn('right')}
           viewport={{ once: false, amount: 0.7 }}
           className='hidden lg:flex absolute -bottom-2 right-0 left-0 before:content-outlineText xl:pb-2'
-        ></motion.div>
+        ></motion.div> */}
       </motion.div>
     </section>
   );
