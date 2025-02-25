@@ -1,12 +1,11 @@
 {
   "Header": {
-    "home": "Acasă",
+    "features": "Pro șamponul",
     "about": "Despre noi",
-    "gallery": "Galerie",
-    "interview": "Interviu",
-    "faqs": "Întrebări frecvente",
+    "shop": "Shop",
     "testimonial": "Recenzii",
-    "contact": "Contact"
+    "contact": "Contact",
+    "faqs": "Întrebări frecvente"
   },
   "about": {
     "title": "Povestea mea despre crearea șamponului",
@@ -213,10 +212,9 @@
     "links": {
       "title": "Linkuri utile",
       "items": {
-        "home": { "name": "Acasă" },
+        "features": { "name": "Pro șampon" },
         "about": { "name": "Despre noi" },
-        "gallery": { "name": "Galeria noastră" },
-        "interview": { "name": "Interviul meu" },
+        "shop": { "name": "Shop" },
         "faqs": { "name": "Întrebări frecvente" },
         "testimonial": { "name": "Recenzii" },
         "contact": { "name": "Contactați-ne" }

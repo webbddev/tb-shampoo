@@ -1,12 +1,11 @@
 {
   "Header": {
-    "home": "Home",
+    "features": "Pro shampoo",
     "about": "About",
-    "gallery": "Gallery",
-    "interview": "Interview",
-    "faqs": "FAQs",
+    "shop": "Shop",
     "testimonial": "Testimonial",
-    "contact": "Contact"
+    "contact": "Contact",
+    "faqs": "FAQs"
   },
   "about": {
     "title": "My Story of Creating the Shampoo",
@@ -213,10 +212,9 @@
     "links": {
       "title": "Useful links",
       "items": {
-        "home": { "name": "Home" },
+        "features": { "name": "Pro shampoo" },
         "about": { "name": "About me" },
-        "gallery": { "name": "My gallery" },
-        "interview": { "name": "My interview" },
+        "shop": { "name": "Shop" },
         "faqs": { "name": "FAQs" },
         "testimonial": { "name": "Reviews" },
         "contact": { "name": "Contact me" }

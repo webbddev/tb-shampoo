@@ -55,7 +55,7 @@ const Header = () => {
     >
       <div className='flex items-center justify-between h-full pl-[50px] pr-[60px] md:pr-[80px] md:pl-[80px] lg:pl-[90px] lg:pr-[90px] xl:pl-[100px] xl:pr-[100px] 2xl:pl-[180px] 2xl:pr-[180px]'>
         {/* logo */}
-        <Link href='#home'>
+        <Link href='/'>
           <Image
             // className='w-[188px] h-[90px]'
             className='w-[110px] h-[50px] md:w-[114px] md:h-[70px] lg:w-[118px] lg:h-[70px] xl:w-[140px] xl:h-[80px] 2xl:w-[188px] 2xl:h-[90px]'

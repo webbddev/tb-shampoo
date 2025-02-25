@@ -4,7 +4,6 @@
 
 @import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200);
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -18,7 +17,7 @@ html {
     @apply font-secondary text-lg text-dark bg-[#E5E5E5];
   }
   .section {
-    @apply py-[40px] lg:py-[160px];
+    @apply py-[40px] lg:py-[160px] pt-[110px] lg:pt-[140px];
   }
   .link {
     @apply font-oswald uppercase tracking-[0.08em];
@@ -36,7 +35,7 @@ html {
     @apply text-[19px] lg:text-[20px] xl:text-[22px] 2xl:text-[22px] 3xl:text-[24px] text-dark uppercase font-secondary max-w-[510px] leading-none;
   }
   .p {
-    @apply text-[19px] lg:text-[20px] xl:text-[20px] 
+    @apply text-[19px] lg:text-[20px] xl:text-[20px];
   }
 
   /* buttons */

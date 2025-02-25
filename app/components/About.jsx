@@ -43,10 +43,10 @@ const About = () => {
               <div className='font-light max-w-[590px] text-grey'>
                 <p className='p mb-6'>{t('paragraph1')}</p>
                 <p className='p mb-9'>{t('paragraph2')}</p>
-                <p className='p mb-9'>{t('paragraph3')}</p>
 
                 {isButtonClicked ? (
                   <>
+                    <p className='p mb-9'>{t('paragraph3')}</p>
                     <p className='p mb-9'>{t('paragraph4')}</p>
                     <p className='p mb-9'>{t('paragraph5')}</p>
                   </>

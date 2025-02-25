@@ -1,12 +1,11 @@
 {
   "Header": {
-    "home": "Домой",
+    "features": "Pro шампунь",
     "about": "О нас",
-    "gallery": "Галерея",
-    "interview": "Интервью",
-    "faqs": "FAQs",
+    "shop": "Shop",
     "testimonial": "Отзывы",
-    "contact": "Контакты"
+    "contact": "Контакты",
+    "faqs": "FAQs"
   },
   "about": {
     "title": "Моя история создания шампуня",
@@ -213,10 +212,9 @@
     "links": {
       "title": "Полезные ссылки",
       "items": {
-        "home": { "name": "Главная" },
+        "features": { "name": "Pro шампунь" },
         "about": { "name": "Обо мне" },
-        "gallery": { "name": "Моя галерея" },
-        "interview": { "name": "Мое интервью" },
+        "shop": { "name": "Shop" },
         "faqs": { "name": "FAQs" },
         "testimonial": { "name": "Отзывы" },
         "contact": { "name": "Свяжитесь со мной" }

@@ -83,20 +83,20 @@ export const headerData = {
 // i18-related
 export const links = [
   {
-    key: 'home',
-    hash: '#home',
+    key: 'features',
+    hash: '#features',
   },
   {
     key: 'about',
     hash: '#about',
   },
   {
-    key: 'gallery',
-    hash: '#gallery',
+    key: 'shop',
+    hash: '#shop',
   },
   {
-    key: 'interview',
-    hash: '#interview',
+    key: 'testimonial',
+    hash: '#testimonial',
   },
   {
     key: 'faqs',
@@ -111,9 +111,8 @@ export const links = [
 export const socialData = [
   { href: '#', icon: <GrFacebookOption /> },
   { href: '#', icon: <IoLogoInstagram /> },
-  { href: '#', icon: <IoLogoPinterest /> },
-  { href: '#', icon: <IoLogoTwitter /> },
   { href: '#', icon: <IoLogoYoutube /> },
+  // { href: '#', icon: <IoTelegram /> }, найти иконку
 ];
 
 // Hero section related data
@@ -241,7 +240,7 @@ export const faqQuestions = [
     question: 'How much shampoo should I use?',
     answer:
       'Use a coin-sized amount for short hair, and adjust the amount based on your hair length and thickness. Using too much can leave residue, while too little may not clean adequately.',
-  }
+  },
 ];
 
 // Gallery with images

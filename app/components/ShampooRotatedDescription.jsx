@@ -10,7 +10,7 @@ const ShampooRotatedDescription = () => {
   const t = useTranslations('shampooImagesSection');
 
   return (
-    <section id='about' className='py-5 lg:py-16 xl:pb-[160px]'>
+    <section className='py-5 lg:py-16 xl:pb-[160px]'>
       <div className='section container mx-auto py-6'>
         <motion.h2
           variants={fadeIn('up')}

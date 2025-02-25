@@ -23,7 +23,7 @@ const Contact = () => {
   // State to manage form submission status and prevent multiple submissions
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const offices = [ 'nyc'];
+  const offices = ['nyc'];
 
   const handleSubmit = async (formData) => {
     try {

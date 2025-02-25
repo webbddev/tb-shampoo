@@ -7,10 +7,10 @@ import ShampooImg5 from '../../public/img/shampoo/5-shampoo.jpg';
 import { useTranslations } from 'next-intl';
 
 const ProductImages = () => {
-  const t  = useTranslations('productImages')
+  const t = useTranslations('productImages')
   
   return (
-    <section className='section lg:py-[20px] container mx-auto'>
+    <section id='shop' className='section container mx-auto'>
       <motion.h2
         variants={fadeIn('up')}
         initial='hidden'
