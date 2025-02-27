@@ -12,29 +12,17 @@ import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility
 
 const markers = [
   {
-    position: [51.53154734935135, -0.16204833984375003],
-    title: 'Carnival Bambini London',
-    subtitle: 'To address all issues (including breaking changes)',
-    image: '/img/map/cb.webp',
-  },
-  {
     position: [47.045745939597445, 28.865262866020206],
     title: 'Sexy Place',
-    subtitle: 'Here takaq sexy lives',
+    subtitle: 'Here такая вся sexy lives',
     image: '/img/map/2.png',
   },
   {
     position: [47.018677119196795, 28.83239329659408],
-    title: 'Tatiana Braga Beauty House',
+    title: 'TB Beauty House',
     subtitle:
       'Sunt profesioniste care aduc transformarea în viața cliențelor, oferind servicii de hair styling, makeup, manichiură, pedichiură și masaj.',
     image: '/img/map/5.png',
-  },
-  {
-    position: [34.0211, -118.3965],
-    title: 'Yoga Studio Lucia LA',
-    subtitle: 'Your local LA branch',
-    image: '/img/map/4.png',
   },
 ];
 

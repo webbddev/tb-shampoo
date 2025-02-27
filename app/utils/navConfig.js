@@ -14,7 +14,7 @@ export const navConfig = {
   items: [
     { key: 'features', hash: '#features' },
     { key: 'about', hash: '#about' },
-    { key: 'shop', hash: '#shop' },
+    { key: 'productsRange', hash: '#productsRange' },
     { key: 'testimonial', hash: '#testimonial' },
     { key: 'contact', hash: '#contact' },
     { key: 'faqs', hash: '#faqs' },

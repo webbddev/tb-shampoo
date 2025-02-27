@@ -13,8 +13,7 @@ const Testimonial = () => {
   const t = useTranslations('testimonial');
 
   return (
-    <section id='testimonial' className='section'>
-      <div className='container mx-auto'>
+    <section id='testimonial' className='section container mx-auto'>
         <div className='flex flex-col gap-y-16'>
           <motion.h2
             variants={fadeIn('up')}
@@ -39,7 +38,7 @@ const Testimonial = () => {
                         height={109}
                       />
                     </div>
-                    <div className='flex-1 lg:mt-[54px]'>
+                    <div classNamrue='flex-1 lg:mt-[54px]'>
                       <h4 className='font-thin text-xl lg:text-[22px] 2xl:text-[24px] leading-normal mb-6 lg:mb-12'>
                         {t(`slides.${index}.message`)}
                       </h4>
@@ -58,7 +57,6 @@ const Testimonial = () => {
               ))}
             </Swiper>
           </div>
-        </div>
       </div>
     </section>
   );

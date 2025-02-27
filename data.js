@@ -91,8 +91,8 @@ export const links = [
     hash: '#about',
   },
   {
-    key: 'shop',
-    hash: '#shop',
+    key: 'productsRange',
+    hash: '#productsRange',
   },
   {
     key: 'testimonial',

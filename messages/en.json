@@ -2,7 +2,7 @@
   "Header": {
     "features": "Pro shampoo",
     "about": "About",
-    "shop": "Shop",
+    "productsRange": "Shop",
     "testimonial": "Testimonial",
     "contact": "Contact",
     "faqs": "FAQs"
@@ -20,11 +20,11 @@
   "contact": {
     "title": "Get in touch with me:",
     "offices": {
-      "nyc": {
-        "title": "NYC office",
-        "subtitle": "Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus",
-        "address": "1630 Elm Drive, New York City",
-        "phone": "+49 34 36573355",
+      "kis": {
+        "title": "TB Beauty House",
+        "subtitle": "Where hair comes to life, beauty blossoms, and every look becomes a work of art. Professional care, flawless makeup, the latest coloring techniques, and exclusive cosmetics for radiant hair and glowing skin.",
+        "address": "Str. Mihai Eminescu, 38, Kishinev",
+        "phone": "+373 79 718 259 / +373 78 434 749",
         "email": "contact@yourcompany.com",
         "link": "Get location"
       }
@@ -52,39 +52,39 @@
     "title": "YOUR PERSONAL STYLIST IN A BOTTLE",
     "1": {
       "topText": "",
-      "title": "Radiant Hair",
-      "subtitle": "Restores healthy shine and radiance to hair",
-      "description": "Deep cleansing from styling product residue, sebum, and urban grime restores vitality and shine to hair, as accumulated impurities suffocate it from within, making it dull and brittle."
+      "title": "Radiance",
+      "subtitle": "Restores natural shine",
+      "description": "Deeply cleanses hair from styling products, excess oil, and impurities, bringing back shine and eliminating dullness."
     },
     "2": {
       "topText": "",
-      "title": "Against Dandruff and Seborrhea",
-      "subtitle": "Eliminates dandruff from the first use. Effectively helps with seborrhea",
-      "description": "Salicylic and lactic acid cleanse the scalp from dead cells and regulate sebum production, possessing antibacterial action."
+      "title": "Purity",
+      "subtitle": "Fights dandruff and seborrhea",
+      "description": "Salicylic and lactic acids gently exfoliate the scalp, removing dead skin cells and regulating sebum production while providing antibacterial benefits."
     },
     "3": {
       "topText": "",
-      "title": "Oil Control",
-      "subtitle": "Normalizes sebum balance",
-      "description": "The shampoo maintains a healthy sebum balance, which is especially important during adolescence when hormonal changes can cause excessive oiliness."
+      "title": "Balance",
+      "subtitle": "Regulates sebum levels",
+      "description": "Helps maintain a healthy sebum balance, especially beneficial during hormonal changes."
     },
     "4": {
       "topText": "",
-      "title": "Strengthening and Restoration",
-      "subtitle": "Reduces hair breakage and split ends",
-      "description": "An amino acid complex and panthenol actively nourish the hair, which significantly reduces its breakage and improves its health."
+      "title": "Strength",
+      "subtitle": "Reduces hair breakage",
+      "description": "Amino acids and panthenol nourish the hair, minimizing breakage and improving overall health."
     },
     "5": {
       "topText": "",
-      "title": "Maintains Moisture During Styling",
-      "subtitle": "Prevents excessive dryness after flat iron styling",
-      "description": "Urea and panthenol retain moisture inside the hair, preventing dryness and split ends, maintaining their health and elasticity."
+      "title": "Hydration",
+      "subtitle": "Protects hair during heat styling",
+      "description": "Urea and panthenol lock in moisture, preventing dryness and split ends."
     },
     "6": {
       "topText": "",
-      "title": "Volume and Thickness",
-      "subtitle": "Gives hair volume from the roots",
-      "description": "A complex of proteins and keratin compacts the hair structure, lifting it from the roots and creating the effect of thick and voluminous hair without weighing it down."
+      "title": "Volume & Density",
+      "subtitle": "Gives hair a fuller look",
+      "description": "Proteins and keratin strengthen the hair, adding volume and density without weighing it down."
     }
   },
   "shampooImagesSection": {
@@ -124,9 +124,31 @@
       }
     ]
   },
-  "productImages": {
+  "productsRange": {
     "title": "Experience the Power of Amino Acizi",
-    "subTitle": "Check out these new arrivals as well"
+    "subTitle": "Check out these new arrivals as well",
+    "products": [
+      {
+        "title": "AMINO ACIZI 250 ml",
+        "description": "In the SHOP section, products from the NIACINAMIDE series are also purchased with this item: (here are 3 product positions. I suggest making them smaller cards)"
+      },
+      {
+        "title": "AMINO ACIZI 1000 ml",
+        "description": "And I Love Nick! Let everyone know who made such an awesome site! Be be be!"
+      },
+      {
+        "title": "«NIACINAMIDE.CLEANSING GEL», 200 ml",
+        "description": "Cleansing and makeup removal gel – gentle cleansing and deep hydration in one bottle. Easily removes impurities and makeup without drying the skin. Niacinamide evens out tone and tightens pores, while D-panthenol soothes and restores. Ideal for all skin types, including sensitive. Result: clean, hydrated, and radiant skin without feeling tight."
+      },
+      {
+        "title": "«NIACINAMIDE.GOMMAGE», 200 ml",
+        "description": "Facial gommage – gentle cream exfoliant with succinic acid, bamboo extract, and niacinamide. Cleanses pores, removes dead skin cells, lightens spots, has a powerful antioxidant and anti-inflammatory effect. Suitable for all skin types and professional use."
+      },
+      {
+        "title": "«NIACINAMIDE.TONIC», 200 ml",
+        "description": "Facial tonic – the perfect step to healthy and radiant skin. Gently cleanses, moisturizes, and restores balance, giving a feeling of freshness and comfort. The formula with niacinamide and D-panthenol evens out skin tone and reduces redness, soothes and relieves irritation, maintains optimal hydration levels. Ideal for all skin types, including sensitive."
+      }
+    ]
   },
   "faqs": {
     "title": "Frequently Asked Questions",
@@ -214,7 +236,7 @@
       "items": {
         "features": { "name": "Pro shampoo" },
         "about": { "name": "About me" },
-        "shop": { "name": "Shop" },
+        "productsRange": { "name": "Shop" },
         "faqs": { "name": "FAQs" },
         "testimonial": { "name": "Reviews" },
         "contact": { "name": "Contact me" }
@@ -223,10 +245,12 @@
     "program": {
       "title": "Working Time",
       "items": [
-        { "name": "Mon - Tue / Appointment" },
-        { "name": "Wed - Fri / 10:00 - 9:00pm" },
-        { "name": "Sat / 10:00 - 6:00pm" },
-        { "name": "Sun / no work on this day" }
+        { "name": "Mon / 09:00 - 18:00" },
+        { "name": "Tue / 09:00 - 18:00" },
+        { "name": "Wed / 09:00 - 18:00" },
+        { "name": "Thu / 09:00 - 18:00" },
+        { "name": "Fri / 09:00 - 18:00" },
+        { "name": "Sat - Sun / closed" }
       ]
     },
     "newsletter": {

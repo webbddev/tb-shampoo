@@ -16,4 +16,4 @@ export { default as Skills } from './Skills';
 export { default as Socials } from './Socials';
 export { default as Testimonial } from './Testimonial';
 export { default as Map } from './Map';
-export { default as ProductImages } from './ProductImages';
+export { default as ProductsRange } from './ProductsRange';

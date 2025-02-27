@@ -2,7 +2,7 @@
   "Header": {
     "features": "Pro șamponul",
     "about": "Despre noi",
-    "shop": "Shop",
+    "productsRange": "Shop",
     "testimonial": "Recenzii",
     "contact": "Contact",
     "faqs": "Întrebări frecvente"
@@ -20,11 +20,11 @@
   "contact": {
     "title": "Poți cumpăra șamponul aici:",
     "offices": {
-      "nyc": {
-        "title": "Biroul din New York",
-        "subtitle": "Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus",
-        "address": "1630 Elm Drive, New York",
-        "phone": "+49 34 36573355",
+      "kis": {
+        "title": "TB Beauty House",
+        "subtitle": "Acolo unde părul prinde viață, frumusețea înflorește, iar fiecare look devine o operă de artă. Îngrijire profesională, machiaj perfect, cele mai noi tehnici de colorare și cosmetice exclusive pentru un păr și o piele cu strălucire impecabilă.",
+        "address": "Str. Mihai Eminescu, 38, Chišinâu",
+        "phone": "+373 79 718 259 / +373 78 434 749",
         "email": "contact@yourcompany.com",
         "link": "Arată pe hartă"
       }
@@ -52,39 +52,39 @@
     "title": "STILISTUL TĂU PERSONAL ÎNTR-UN SINGUR FLACON",
     "1": {
       "topText": "",
-      "title": "Păr Strălucitor",
-      "subtitle": "Redă strălucirea sănătoasă a părului tău",
-      "description": "Curățarea profundă de reziduuri de produse de styling, sebum și poluare urbană readuce vitalitatea și luciul părului, pentru că acumularea acestor impurități le afectează din interior, făcându-le tern și fragile."
+      "title": "Strălucire",
+      "subtitle": "Redă strălucirea naturală părului",
+      "description": "Curăță în profunzime reziduurile de produse de styling, excesul de sebum și impuritățile, redând părului luminozitatea și eliminând aspectul tern."
     },
     "2": {
       "topText": "",
-      "title": "De mătreață și seboree",
-      "subtitle": "Îndepărtează mătreața de la prima utilizare. Eficient în combaterea seboreei",
-      "description": "Acidul salicilic și acidul lactic elimină celulele moarte de pe pielea capului și reglează producția de sebum, având în același timp un efect antibacterian."
+      "title": "Puritate",
+      "subtitle": "Combate mătreața și seboreea",
+      "description": "Acizii salicilic și lactic exfoliază delicat scalpul, îndepărtând celulele moarte și reglând producția de sebum, având totodată efect antibacterian."
     },
     "3": {
       "topText": "",
-      "title": "Controlul sebumului",
-      "subtitle": "Normalizează echilibrul sebumului",
-      "description": "Șamponul menține un echilibru sănătos al sebumului, esențial în perioada adolescenței, când schimbările hormonale pot provoca exces de sebum."
+      "title": "Echilibru",
+      "subtitle": "Reglează producția de sebum",
+      "description": "Ajută la menținerea unui echilibru sănătos al sebumului, fiind deosebit de benefic în perioadele de schimbări hormonale."
     },
     "4": {
       "topText": "",
-      "title": "Fortificare și regenerare",
-      "subtitle": "Reduce ruperea părului și vârfurile despicate",
-      "description": "Complexul de aminoacizi și pantenolul hrănesc intens părul, reducând semnificativ fragilitatea acestuia și contribuind la îmbunătățirea sănătății sale."
+      "title": "Fortifiere",
+      "subtitle": "Reduce ruperea firelor de păr",
+      "description": "Aminoacizii și pantenolul hrănesc firul de păr, diminuând ruperea și îmbunătățind sănătatea acestuia."
     },
     "5": {
       "topText": "",
-      "title": "Păstrează hidratarea în timpul coafării",
-      "subtitle": "Previne uscarea excesivă după utilizarea plăcii de îndreptat",
-      "description": "Ureea și pantenolul păstrează umiditatea în interiorul firului de păr, prevenind uscarea și despicarea vârfurilor, menținând elasticitatea și sănătatea părului."
+      "title": "Hidratare",
+      "subtitle": "Protejează părul în timpul coafării",
+      "description": "Ureea și pantenolul mențin hidratarea, prevenind uscarea și despicarea vârfurilor."
     },
     "6": {
       "topText": "",
-      "title": "Volum și bogăție",
-      "subtitle": "Volum natural de la rădăcină",
-      "description": "Formula cu proteine și keratină fortifică firul de păr, oferindu-i volum de la rădăcină și un aspect bogat, fără a-l îngreuna."
+      "title": "Volum și densitate",
+      "subtitle": "Oferă mai mult volum părului",
+      "description": "Proteinele și keratina întăresc firul de păr, oferindu-i volum și densitate fără a-l încărca."
     }
   },
   "shampooImagesSection": {
@@ -124,9 +124,31 @@
       }
     ]
   },
-  "productImages": {
-    "title": "Experimentați puterea Amino Acizi",
-    "subTitle": "Verificați și aceste noutăți"
+  "productsRange": {
+    "title": "Experimentați Puterea Amino Acizi",
+    "subTitle": "Verificați și aceste noutăți",
+    "products": [
+      {
+        "title": "AMINO ACIZI 250 ml",
+        "description": "În secțiunea SHOP, cu acest produs se cumpără și produse din seria NIACINAMIDE: (aici sunt 3 poziții de produse. Vă propun să le facem carduri mai mici)"
+      },
+      {
+        "title": "AMINO ACIZI 1000 ml",
+        "description": "Și-l iubesc pe Nic! Să știe toată lumea cine a făcut un site atât de grozav! Be be be!"
+      },
+      {
+        "title": "«NIACINAMIDE.CLEANSING GEL», 200 ml",
+        "description": "Gel pentru curățare și demachiere – curățare delicată și hidratare profundă într-un singur flacon. Îndepărtează ușor impuritățile și machiajul, fără a usca pielea. Niacinamida uniformizează tonul și micșorează porii, iar D-pantenolul calmează și regenerează. Ideal pentru toate tipurile de piele, inclusiv cea sensibilă. Rezultat: piele curată, hidratată și radiantă, fără senzație de strângere."
+      },
+      {
+        "title": "«NIACINAMIDE.GOMMAGE», 200 ml",
+        "description": "Gomaj pentru față – exfoliant cremos delicat cu acid succinic, extract de bambus și niacinamidă. Curăță porii, îndepărtează celulele moarte, luminează petele, are un efect antioxidant și antiinflamator puternic. Potrivit pentru toate tipurile de piele și pentru uz profesional."
+      },
+      {
+        "title": "«NIACINAMIDE.TONIC», 200 ml",
+        "description": "Tonic pentru față – pasul ideal pentru o piele sănătoasă și radiantă. Curăță delicat, hidratează și restabilește echilibrul, oferind o senzație de prospețime și confort. Formula cu niacinamidă și D-pantenol uniformizează tonul pielii și reduce roșeața, calmează și ameliorează iritațiile, menține un nivel optim de hidratare. Ideal pentru toate tipurile de piele, inclusiv cea sensibilă."
+      }
+    ]
   },
   "faqs": {
     "title": "Întrebări frecvente",
@@ -214,7 +236,7 @@
       "items": {
         "features": { "name": "Pro șampon" },
         "about": { "name": "Despre noi" },
-        "shop": { "name": "Shop" },
+        "productsRange": { "name": "Shop" },
         "faqs": { "name": "Întrebări frecvente" },
         "testimonial": { "name": "Recenzii" },
         "contact": { "name": "Contactați-ne" }
@@ -223,10 +245,12 @@
     "program": {
       "title": "Program de lucru",
       "items": [
-        { "name": "Luni - Marți / La cerere" },
-        { "name": "Miercuri - Vineri / 10:00 - 21:00" },
-        { "name": "Sâmbătă / 10:00 - 18:00" },
-        { "name": "Duminică / Închis" }
+        { "name": "Lun / 09:00 - 18:00" },
+        { "name": "Mar / 09:00 - 18:00" },
+        { "name": "Mie / 09:00 - 18:00" },
+        { "name": "Joi / 09:00 - 18:00" },
+        { "name": "Vin / 09:00 - 18:00" },
+        { "name": "Sâm - Dum / închis" }
       ]
     },
     "newsletter": {

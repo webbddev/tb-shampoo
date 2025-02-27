@@ -23,7 +23,7 @@ const Contact = () => {
   // State to manage form submission status and prevent multiple submissions
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const offices = ['nyc'];
+  const offices = ['kis'];
 
   const handleSubmit = async (formData) => {
     try {
@@ -92,7 +92,7 @@ const Contact = () => {
                       <div>{t(`offices.${office}.email`)}</div>
                     </div>
                   </div>
-                  {/* link */}
+                  {/* get location link */}
                   <Link
                     className='font-thin border-b border-dark pb-[5px]'
                     href='#'

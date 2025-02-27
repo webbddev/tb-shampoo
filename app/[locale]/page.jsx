@@ -13,7 +13,7 @@ import {
   Interview,
   Skills,
   Testimonial,
-  ProductImages,
+  ProductsRange,
   Footer,
   Copyright,
 } from '../components';
@@ -33,7 +33,7 @@ export default function Home() {
       <ShampooRotatedDescription />
       <Interview />
       <About />
-      <ProductImages />
+      <ProductsRange />
       <Testimonial />
       {/* <GallerySection />  */}
       {/* <Skills /> */}

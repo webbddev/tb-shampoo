@@ -39,6 +39,8 @@ const Footer = () => {
     { name: t('program.items.1.name') },
     { name: t('program.items.2.name') },
     { name: t('program.items.3.name') },
+    { name: t('program.items.4.name') },
+    { name: t('program.items.5.name') },
   ];
 
   return (
