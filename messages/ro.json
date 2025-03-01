@@ -130,11 +130,13 @@
     "products": [
       {
         "title": "AMINO ACIZI 250 ml",
-        "description": "În secțiunea SHOP, cu acest produs se cumpără și produse din seria NIACINAMIDE: (aici sunt 3 poziții de produse. Vă propun să le facem carduri mai mici)"
+        "description": "În secțiunea SHOP, cu acest produs se cumpără și produse din seria NIACINAMIDE: (aici sunt 3 poziții de produse. Vă propun să le facem carduri mai mici)",
+        "alt": "Amino Acizi 250 ml"
       },
       {
         "title": "AMINO ACIZI 1000 ml",
-        "description": "Și-l iubesc pe Nic! Să știe toată lumea cine a făcut un site atât de grozav! Be be be!"
+        "description": "Și-l iubesc pe Nic! Să știe toată lumea cine a făcut un site atât de grozav! Be be be!",
+        "alt": "Amino Acizi 1000 ml"
       },
       {
         "title": "«NIACINAMIDE.CLEANSING GEL», 200 ml",

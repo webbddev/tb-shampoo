@@ -3,8 +3,8 @@
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
-import ShampooImg1 from '../../public/img/shampoo/1-shampoo.jpg';
-import ShampooImg2 from '../../public/img/shampoo/2-shampoo.jpg';
+import ShampooImg1 from '../../public/img/shampoo/product-3.jpg';
+import ShampooImg2 from '../../public/img/shampoo/product-4.jpg';
 import ShampooImg3 from '../../public/img/shampoo/3-shampoo.jpg';
 import ShampooImg4 from '../../public/img/shampoo/4-shampoo.jpg';
 import ShampooImg5 from '../../public/img/shampoo/5-shampoo.jpg';
@@ -33,12 +33,12 @@ const ProductsRange = () => {
         className='flex flex-col gap-4 max-w-7xl 2xl:w-[1360px] 3xl:w-[1410px] mx-auto'
       >
         {/* Top row: 2 larger images with text cards */}
-        <div className='grid md:grid-cols-2 gap-4'>
+        <div className='grid md:grid-cols-2 gap-6'>
           <div className='bg-white rounded-xl shadow-lg overflow-hidden'>
             <div className='relative w-full h-[300px] md:h-[460px] lg:h-[600px]'>
               <Image
                 src={ShampooImg1}
-                alt='Product 1'
+                alt={t('products.0.alt')}
                 fill
                 className='object-cover h-full w-full'
                 sizes='(max-width: 768px) 100vw, 50vw'
@@ -59,7 +59,7 @@ const ProductsRange = () => {
             <div className='relative w-full h-[300px] md:h-[460px] lg:h-[600px]'>
               <Image
                 src={ShampooImg2}
-                alt='Product 2'
+                alt={t('products.1.alt')}
                 fill
                 className='object-cover h-full w-full'
                 sizes='(max-width: 768px) 100vw, 50vw'

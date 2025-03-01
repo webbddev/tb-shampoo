@@ -39,7 +39,7 @@ module.exports = {
         // hero_img: "url('/img/hero/131.jpg')",
         hero_img: "url('/img/hero/13-col-pic.webp')",
         about_img: "url('/img/about/image.png')",
-        interview: "url('/img/interview/bg.png')",
+        interview: "url('/img/interview/bg.jpg')",
       },
       // svg element - sliding text
       content: {

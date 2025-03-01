@@ -12,10 +12,10 @@ import GalleryImg8 from './public/img/gallery/8.png';
 import GalleryImg9 from './public/img/gallery/kitchen.jpeg';
 import QuoteImg from './public/img/testimonial/quote.svg';
 // import shampoo images
-import ShampooImg1 from './public/img/shampoo/1-shampoo.jpg';
-import ShampooImg2 from './public/img/shampoo/2-shampoo.jpg';
-import ShampooImg3 from './public/img/shampoo/3-shampoo.jpg';
-import ShampooImg4 from './public/img/shampoo/4-shampoo.jpg';
+import ShampooImg1 from './public/img/shampoo/proSham-1.jpg';
+import ShampooImg2 from './public/img/shampoo/proSham-2.jpg';
+import ShampooImg3 from './public/img/shampoo/proSham-3.jpg';
+import ShampooImg4 from './public/img/shampoo/proSham-4.jpg';
 import ShampooImg5 from './public/img/shampoo/5-shampoo.jpg';
 // import icons
 import { GrFacebookOption } from 'react-icons/gr';

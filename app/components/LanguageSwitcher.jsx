@@ -16,11 +16,11 @@ export default function LanguageSwitcher() {
   };
 
   return (
-    <label className='border-2 border-gray-400 hover:bg-gray-200 rounded-full py-1 px-3 mr-3 transition duration-700 ease-in-out'>
+    <label className='border-2 border-gray-400 hover:bg-gray-200 rounded-full px-3 mr-3 transition duration-700 ease-in-out'>
       <p className='sr-only'>change language</p>
       <select
         defaultValue={localActive}
-        className='bg-transparent appearance-none text-base font-medium text-center cursor-pointer focus:outline-none'
+        className='bg-transparent appearance-none text-sm font-medium text-center cursor-pointer focus:outline-none'
         onChange={onSelectChange}
         disabled={isPending}
       >

@@ -130,11 +130,13 @@
     "products": [
       {
         "title": "AMINO ACIZI 250 ml",
-        "description": "In the SHOP section, products from the NIACINAMIDE series are also purchased with this item: (here are 3 product positions. I suggest making them smaller cards)"
+        "description": "In the SHOP section, products from the NIACINAMIDE series are also purchased with this item: (here are 3 product positions. I suggest making them smaller cards)",
+        "alt": "Amino Acizi 250 ml"
       },
       {
         "title": "AMINO ACIZI 1000 ml",
-        "description": "And I Love Nick! Let everyone know who made such an awesome site! Be be be!"
+        "description": "And I Love Nick! Let everyone know who made such an awesome site! Be be be!",
+        "alt": "Amino Acizi 1000 ml"
       },
       {
         "title": "«NIACINAMIDE.CLEANSING GEL», 200 ml",

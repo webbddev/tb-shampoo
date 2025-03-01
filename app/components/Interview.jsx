@@ -33,34 +33,34 @@ const Interview = () => {
               {t('title')}
             </motion.h3>
 
-            <motion.div variants={fadeIn('down')}>
+            {/* <motion.div variants={fadeIn('down')}> */}
               {/* play btn */}
-              <div
+              {/* <div
                 onClick={() => setIsOpen(true)}
                 className='flex text-white items-center gap-x-5 cursor-pointer hover:opacity-80 transition'
-              >
+              > */}
                 {/* border */}
-                <div className='w-[70px] h-[70px] lg:w-[91px] lg:h-[91px] border border-white/40 rounded-full text-dark p-[5px] lg:p-[8px]'>
+                {/* <div className='w-[70px] h-[70px] lg:w-[91px] lg:h-[91px] border border-white/40 rounded-full text-dark p-[5px] lg:p-[8px]'> */}
                   {/* inner */}
-                  <div className='w-full h-full rounded-full bg-white flex items-center justify-center'>
+                  {/* <div className='w-full h-full rounded-full bg-white flex items-center justify-center'>
                     <div className='pl-1'>
                       <FaPlay />
                     </div>
                   </div>
-                </div>
+                </div> */}
                 {/* btn text */}
-                <div className='font-oswald uppercase'>{t('btnText')}</div>
-              </div>
-            </motion.div>
+                {/* <div className='font-oswald uppercase'>{t('btnText')}</div>
+              </div> */}
+            {/* </motion.div> */}
             {/* modal video */}
-            <ModalVideo
+            {/* <ModalVideo
               channel='youtube'
               autoplay
               isOpen={isOpen}
               // videoId='_l1mqYQuNf8'
               videoId='hkJYj_g_pL8' // fisher - i'm losing it
               onClose={() => setIsOpen(false)}
-            />
+            /> */}
           </div>
         </div>
       </div>
