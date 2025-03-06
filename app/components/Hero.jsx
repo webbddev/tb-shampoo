@@ -40,25 +40,26 @@ const Hero = () => {
         {/* Text container with backdrop filter */}
         <motion.div
           variants={fadeIn('down')}
-          className='flex flex-col items-center mx-auto text-white text-left p-6 mt-2 md:mt-20 rounded-lg backdrop-filter backdrop-blur-sm bg-opacity-20 bg-gray-500 shadow-2xl lg:absolute lg:top-[130px] md:text-left lg:max-w-[600px] xl:max-w-[500px] xl:right-[-28px] 2xl:max-w-[550px] 2xl:right-[16px] 2xl:top-[250px] 3xl:right-[32px]'
+          className='flex flex-col items-center mx-auto text-black/85 text-left p-7 mt-2 
+    md:mt-20 rounded-lg backdrop-filter backdrop-blur-lg bg-stone-200/40 
+    border border-emerald-500/20 shadow-xl lg:absolute lg:top-[130px] 
+    md:text-left lg:max-w-[600px] xl:max-w-[500px] xl:right-[-28px] 
+    2xl:max-w-[550px] 2xl:right-[16px] 2xl:top-[250px] 3xl:right-[32px]'
         >
-          <motion.h1 variants={fadeIn('down')} className='h1 mb-4 ml-0'>
+          <motion.h1 variants={fadeIn('down')} className='h1 mb-5 ml-0'>
             {t('title')}
           </motion.h1>
+
           <motion.p
             variants={fadeIn('left')}
-            className='font-thin mb-8 lg:mb-[48px] max-w-lg xl:max-w-xl 2xl:max-w-xl leading-relaxed xl:text-[20px] flex-wrap justify-between items-start '
+            className='font-light mb-8 lg:mb-[48px] max-w-lg xl:max-w-xl 
+      2xl:max-w-xl leading-8 xl:text-[20px] flex-wrap tracking-wider'
           >
             {t('subtitle')}
-            <div className='font-medium mt-2 self-end block'>
+            <div className='font-medium mt-4 text-black/90 tracking-wide italic'>
               {t('subtitle2')}
             </div>
           </motion.p>
-          {/* <motion.div variants={fadeIn('up')}>
-            <button className='btn btn-sm lg:btn-lg btn-outline mx-auto'>
-              {t('btnText')} <div>{<IoMdArrowForward/>}</div>
-            </button>
-          </motion.div> */}
         </motion.div>
 
         {/* sliding text */}

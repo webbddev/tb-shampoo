@@ -17,18 +17,16 @@ const FeaturesCard = ({ featureNumber, index }) => {
     <div className='w-full h-[95%] mx-auto bg-white shadow-md rounded-lg p-[12px] 3xl:p-6 mt-2 flex flex-col relative'>
       {/* Top Text */}
       {/* <p className='text-sm uppercase tracking-widest text-neutral-800 z-10'> */}
-        {/* {topText} */}
+      {/* {topText} */}
       {/* </p> */}
 
       {/* Main Content */}
       <div className='flex flex-col items-start justify-between mt-1'>
-        <h3 className='h3 mt-3 mb-7 text-neutral-950 z-20'>
-          {title}
-        </h3>
-        <h4 className='h4 font-light text-neutral-700 mb-2'>
+        <h3 className='h3 mt-3 mb-7 text-neutral-950 z-20'>{title}</h3>
+        <h4 className='h4 font-normal text-neutral-700 mb-2 font-oswald tracking-[0.020em]'>
           {subtitle}
         </h4>
-        <p className='flex flex-1 text-neutral-600 min-h-[110px] mb-4 p font-light'>
+        <p className='p flex flex-1 text-neutral-600 min-h-[110px] mb-4 font-light'>
           {description}
         </p>
       </div>
