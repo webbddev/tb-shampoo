@@ -23,7 +23,7 @@ const ShampooRotatedDescription = () => {
         </motion.h2>
       </div>
 
-      <div className='container mx-auto 2xl:w-[1360px] 3xl:w-[1410px]'>
+      <div className='mx-auto lg:w-[990px] 2xl:w-[1360px] 3xl:w-[1410px]'>
         <div className='flex flex-col gap-y-4'>
           {shampooData.shampooImages.map((image, index) => {
             const isEven = index % 2 === 0;

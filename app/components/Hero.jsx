@@ -40,7 +40,7 @@ const Hero = () => {
         {/* Text container with backdrop filter */}
         <motion.div
           variants={fadeIn('down')}
-          className='flex flex-col items-center mx-auto text-black/85 text-left p-7 mt-2 md:mt-20 rounded-lg backdrop-filter backdrop-blur-lg bg-stone-200/30 border border-emerald-500/20 shadow-xl lg:absolute lg:top-[130px] md:text-left lg:max-w-[600px] xl:max-w-[500px] xl:right-[-28px] 2xl:max-w-[550px] 2xl:right-[16px] 2xl:top-[250px] 3xl:right-[32px]'
+          className='flex flex-col items-center mx-auto text-black/70 text-left p-7 mt-2 md:mt-20 rounded-lg backdrop-filter backdrop-blur-lg bg-stone-200/30 border border-emerald-500/20 shadow-xl lg:absolute lg:top-[130px] md:text-left lg:max-w-[600px] xl:max-w-[500px] xl:right-[-28px] 2xl:max-w-[550px] 2xl:right-[16px] 2xl:top-[250px] 3xl:right-[32px]'
         >
           <motion.h1 variants={fadeIn('down')} className='h1 mb-5 ml-0'>
             {t('title')}
