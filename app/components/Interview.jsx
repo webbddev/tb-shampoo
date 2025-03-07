@@ -28,28 +28,28 @@ const Interview = () => {
             {/* title */}
             <motion.h3
               variants={fadeIn('down')}
-              className='text-white text-[40px] lg:text-[55px] leading-[1.1] font-rozha -tracking-[1.3px] normal-case italic mb-8'
+              className='text-stone-100 text-[40px] lg:text-[55px] leading-[1.1] font-rozha -tracking-[1.3px] normal-case italic mb-8 backdrop-blur-sm bg-stone-700/40 p-6 rounded-lg drop-shadow-lg border border-white/40 max-w-[880px]'
             >
               {t('title')}
             </motion.h3>
 
             {/* <motion.div variants={fadeIn('down')}> */}
-              {/* play btn */}
-              {/* <div
+            {/* play btn */}
+            {/* <div
                 onClick={() => setIsOpen(true)}
                 className='flex text-white items-center gap-x-5 cursor-pointer hover:opacity-80 transition'
               > */}
-                {/* border */}
-                {/* <div className='w-[70px] h-[70px] lg:w-[91px] lg:h-[91px] border border-white/40 rounded-full text-dark p-[5px] lg:p-[8px]'> */}
-                  {/* inner */}
-                  {/* <div className='w-full h-full rounded-full bg-white flex items-center justify-center'>
+            {/* border */}
+            {/* <div className='w-[70px] h-[70px] lg:w-[91px] lg:h-[91px] border border-white/40 rounded-full text-dark p-[5px] lg:p-[8px]'> */}
+            {/* inner */}
+            {/* <div className='w-full h-full rounded-full bg-white flex items-center justify-center'>
                     <div className='pl-1'>
                       <FaPlay />
                     </div>
                   </div>
                 </div> */}
-                {/* btn text */}
-                {/* <div className='font-oswald uppercase'>{t('btnText')}</div>
+            {/* btn text */}
+            {/* <div className='font-oswald uppercase'>{t('btnText')}</div>
               </div> */}
             {/* </motion.div> */}
             {/* modal video */}
