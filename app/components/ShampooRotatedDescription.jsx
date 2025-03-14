@@ -36,6 +36,7 @@ const ShampooRotatedDescription = () => {
                 <div
                   className={`flex flex-col lg:flex-row lg:gap-x-[70px] lg:items-center w-full`}
                 >
+                  {/* Text content container with conditional ordering */}
                   <motion.div
                     variants={fadeIn(isEven ? 'right' : 'left')}
                     initial='hidden'
@@ -45,17 +46,18 @@ const ShampooRotatedDescription = () => {
                         ${isEven ? 'lg:order-2' : 'lg:order-1'} 
                         ${isEven ? 'lg:items-start' : 'lg:items-end'}`}
                   >
+                    {/* Description title with conditional positioning */}
                     <h2
                       className={`h3 mb-4 ${
                         isEven
                           ? 'lg:ml-[-20px] max-w-[510px]'
-                          : 'lg:mr-[70px] max-w-[510px]'
+                          : 'lg:mr-[100px] max-w-[510px]'
                       }`}
                     >
                       {t(`images.${index}.descriptionTitle`)}
                     </h2>
 
-                    {/* Added Image component right after descriptionTitle */}
+                    {/* Mobile-only image that appears between title and description */}
                     <div className='w-full mb-8 lg:hidden'>
                       <Image
                         src={image.src}
@@ -66,15 +68,18 @@ const ShampooRotatedDescription = () => {
                       />
                     </div>
 
+                    {/* Description content container */}
                     <div
                       className={`flex flex-col ${
                         isEven ? 'items-start' : ''
                       } lg:mb-40`}
                     >
                       <div className='mx-auto font-light max-w-full md:max-w-[90%] text-grey'>
+                        {/* Description subtitle */}
                         <h4 className='h4 mb-6'>
                           {t(`images.${index}.descriptionSubtitle`)}
                         </h4>
+                        {/* Description paragraphs */}
                         <p className='p mb-6'>
                           {t(`images.${index}.description1`)}
                         </p>
@@ -85,23 +90,7 @@ const ShampooRotatedDescription = () => {
                     </div>
                   </motion.div>
 
-                  {/* <motion.div
-                    variants={fadeIn(isEven ? 'left' : 'right')}
-                    initial='hidden'
-                    whileInView={'show'}
-                    viewport={{ once: false, amount: 0.3 }}
-                    className={`flex-1 w-full h-[50vh] md:h-[65vh] lg:h-[80vh] mb-4 lg:mb-0 hidden lg:block
-                          ${isEven ? 'lg:order-1' : 'lg:order-2'}`}
-                  >
-                    <Image
-                      src={image.src}
-                      alt={t(`images.${index}.alt`)}
-                      className='w-full h-full md:h-[75vh] md:mx-auto xl:w-[36vw] 2xl:h-[90%] 3xl:h-[90%] object-cover rounded-[18px] py-2'
-                      width={1000}
-                      height={1000}
-                    />
-                  </motion.div> */}
-
+                  {/* Desktop-only image container with conditional ordering */}
                   <motion.div
                     variants={fadeIn(isEven ? 'left' : 'right')}
                     initial='hidden'
@@ -110,6 +99,7 @@ const ShampooRotatedDescription = () => {
                     className={`flex-1 w-full mb-0 lg:mb-0 hidden lg:block
                           ${isEven ? 'lg:order-1' : 'lg:order-2'}`}
                   >
+                    {/* Image container with aspect ratio */}
                     <div className='w-full h-full aspect-[3/4]'>
                       <Image
                         src={image.src}
