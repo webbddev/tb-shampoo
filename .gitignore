@@ -39,3 +39,4 @@ next-env.d.ts
 
 /node_modules/@next/swc-darwin-x64/next-swc.darwin-x64.node
 node_modules/
+.qodo

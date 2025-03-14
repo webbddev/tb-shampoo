@@ -58,7 +58,7 @@ const Header = () => {
         <Link href='/'>
           <Image
             // className='w-[188px] h-[90px]'
-            className='w-[110px] h-[50px] md:w-[114px] md:h-[70px] lg:w-[118px] lg:h-[70px] xl:w-[90px] xl:h-[80px] 2xl:w-[188px] 2xl:h-[90px]'
+            className='w-[110px] h-[50px] md:w-[114px] md:h-[70px] lg:w-[118px] lg:h-[70px] xl:w-[90px] xl:h-[80px] 2xl:w-[188px] 2xl:h-[70px]'
             src={logo}
             alt='logo'
             width={188}

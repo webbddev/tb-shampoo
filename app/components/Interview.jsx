@@ -28,7 +28,7 @@ const Interview = () => {
             {/* title */}
             <motion.h3
               variants={fadeIn('down')}
-              className='text-stone-100 text-[40px] lg:text-[55px] leading-[1.1] font-rozha -tracking-[1.3px] normal-case italic mb-8 backdrop-blur-sm bg-stone-700/40 p-6 rounded-lg drop-shadow-lg border border-white/40 max-w-[880px]'
+              className='h3 text-stone-100 text-[40px] lg:text-[55px] leading-[1.1] -tracking-[1.3px] normal-case mb-8 backdrop-blur-sm bg-stone-700/40 p-6 rounded-lg drop-shadow-lg border border-white/40 max-w-[880px]'
             >
               {t('title')}
             </motion.h3>

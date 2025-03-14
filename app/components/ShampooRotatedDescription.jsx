@@ -42,11 +42,11 @@ const ShampooRotatedDescription = () => {
                     whileInView={'show'}
                     viewport={{ once: false, amount: 0.2 }}
                     className={`flex-1 h-full flex flex-col mb-4 mt-0 lg:mb-0
-                      ${isEven ? 'lg:order-2' : 'lg:order-1'} 
-                      ${isEven ? 'lg:items-start' : 'lg:items-end'}`}
+                        ${isEven ? 'lg:order-2' : 'lg:order-1'} 
+                        ${isEven ? 'lg:items-start' : 'lg:items-end'}`}
                   >
                     <h2
-                      className={`h3 mb-12  ${
+                      className={`h3 mb-4 ${
                         isEven
                           ? 'lg:ml-[-20px] max-w-[510px]'
                           : 'lg:mr-[70px] max-w-[510px]'
@@ -54,6 +54,17 @@ const ShampooRotatedDescription = () => {
                     >
                       {t(`images.${index}.descriptionTitle`)}
                     </h2>
+
+                    {/* Added Image component right after descriptionTitle */}
+                    <div className='w-full mb-8 lg:hidden'>
+                      <Image
+                        src={image.src}
+                        alt={t(`images.${index}.alt`)}
+                        className='w-full h-[30vh] object-cover rounded-[18px]'
+                        width={500}
+                        height={500}
+                      />
+                    </div>
 
                     <div
                       className={`flex flex-col ${
@@ -79,13 +90,13 @@ const ShampooRotatedDescription = () => {
                     initial='hidden'
                     whileInView={'show'}
                     viewport={{ once: false, amount: 0.3 }}
-                    className={`flex-1 w-full h-[50vh] lg:h-[80vh] mb-4 lg:mb-0  
-                      ${isEven ? 'lg:order-1' : 'lg:order-2'}`}
+                    className={`flex-1 w-full h-[50vh] lg:h-[80vh] mb-4 lg:mb-0 hidden lg:block
+                          ${isEven ? 'lg:order-1' : 'lg:order-2'}`}
                   >
                     <Image
                       src={image.src}
                       alt={t(`images.${index}.alt`)}
-                      className='w-full h-full md:w-[77vw] md:mx-auto xl:w-[36vw] 2xl:h-[90%] 3xl:h-[90%] object-cover rounded-[18px] py-2'
+                      className='w-full h-full md:h-[60vh] md:mx-auto xl:w-[36vw] 2xl:h-[90%] 3xl:h-[90%] object-cover rounded-[18px] py-2'
                       width={1000}
                       height={1000}
                     />
