@@ -24,7 +24,7 @@ const ShampooRotatedDescription = () => {
       </div>
 
       <div className='container mx-auto lg:w-[990px] 2xl:w-[1360px] 3xl:w-[1410px]'>
-        <div className='flex flex-col gap-y-4'>
+        <div className='flex flex-col gap-y-4 md:gap-y-16 lg:gap-y-20'>
           {shampooData.shampooImages.map((image, index) => {
             const isEven = index % 2 === 0;
 
@@ -60,7 +60,7 @@ const ShampooRotatedDescription = () => {
                       <Image
                         src={image.src}
                         alt={t(`images.${index}.alt`)}
-                        className='w-full h-[30vh] object-cover rounded-[18px]'
+                        className='w-full h-[40vh] object-cover rounded-[18px]'
                         width={500}
                         height={500}
                       />
@@ -69,9 +69,9 @@ const ShampooRotatedDescription = () => {
                     <div
                       className={`flex flex-col ${
                         isEven ? 'items-start' : ''
-                      } lg:mb-36`}
+                      } lg:mb-40`}
                     >
-                      <div className='font-light max-w-[530px] text-grey'>
+                      <div className='mx-auto font-light max-w-full md:max-w-[90%] text-grey'>
                         <h4 className='h4 mb-6'>
                           {t(`images.${index}.descriptionSubtitle`)}
                         </h4>
@@ -85,21 +85,40 @@ const ShampooRotatedDescription = () => {
                     </div>
                   </motion.div>
 
-                  <motion.div
+                  {/* <motion.div
                     variants={fadeIn(isEven ? 'left' : 'right')}
                     initial='hidden'
                     whileInView={'show'}
                     viewport={{ once: false, amount: 0.3 }}
-                    className={`flex-1 w-full h-[50vh] lg:h-[80vh] mb-4 lg:mb-0 hidden lg:block
+                    className={`flex-1 w-full h-[50vh] md:h-[65vh] lg:h-[80vh] mb-4 lg:mb-0 hidden lg:block
                           ${isEven ? 'lg:order-1' : 'lg:order-2'}`}
                   >
                     <Image
                       src={image.src}
                       alt={t(`images.${index}.alt`)}
-                      className='w-full h-full md:h-[60vh] md:mx-auto xl:w-[36vw] 2xl:h-[90%] 3xl:h-[90%] object-cover rounded-[18px] py-2'
+                      className='w-full h-full md:h-[75vh] md:mx-auto xl:w-[36vw] 2xl:h-[90%] 3xl:h-[90%] object-cover rounded-[18px] py-2'
                       width={1000}
                       height={1000}
                     />
+                  </motion.div> */}
+
+                  <motion.div
+                    variants={fadeIn(isEven ? 'left' : 'right')}
+                    initial='hidden'
+                    whileInView={'show'}
+                    viewport={{ once: false, amount: 0.3 }}
+                    className={`flex-1 w-full mb-0 lg:mb-0 hidden lg:block
+                          ${isEven ? 'lg:order-1' : 'lg:order-2'}`}
+                  >
+                    <div className='w-full h-full aspect-[3/4]'>
+                      <Image
+                        src={image.src}
+                        alt={t(`images.${index}.alt`)}
+                        className='w-full h-full object-cover rounded-[18px]'
+                        width={1000}
+                        height={1000}
+                      />
+                    </div>
                   </motion.div>
                 </div>
               </div>
