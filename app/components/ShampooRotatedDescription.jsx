@@ -10,8 +10,8 @@ const ShampooRotatedDescription = () => {
   const t = useTranslations('shampooImagesSection');
 
   return (
-    <section className='py-5 lg:py-16 xl:pb-[160px]'>
-      <div className='section container mx-auto py-6'>
+    <section className='section'>
+      <div className='container mx-auto'>
         <motion.h2
           variants={fadeIn('up')}
           initial='hidden'
@@ -31,10 +31,10 @@ const ShampooRotatedDescription = () => {
             return (
               <div
                 key={index}
-                className='flex flex-col lg:flex-row lg:gap-x-[70px] lg:items-center'
+                className='flex flex-col lg:flex-row lg:gap-x-16 lg:items-center'
               >
                 <div
-                  className={`flex flex-col lg:flex-row lg:gap-x-[70px] lg:items-center w-full`}
+                  className={`flex flex-col lg:flex-row lg:gap-x-16 lg:items-center w-full`}
                 >
                   {/* Text content container with conditional ordering */}
                   <motion.div
@@ -42,13 +42,13 @@ const ShampooRotatedDescription = () => {
                     initial='hidden'
                     whileInView={'show'}
                     viewport={{ once: false, amount: 0.2 }}
-                    className={`flex-1 h-full flex flex-col mb-4 mt-0 lg:mb-0
+                    className={`flex-1 flex flex-col mb-6 lg:mb-0
                         ${isEven ? 'lg:order-2' : 'lg:order-1'} 
                         ${isEven ? 'lg:items-start' : 'lg:items-end'}`}
                   >
                     {/* Description title with conditional positioning */}
                     <h2
-                      className={`h3 mb-4 ${
+                      className={`h3 mb-6 ${
                         isEven
                           ? 'lg:ml-[-20px] max-w-[510px]'
                           : 'lg:mr-[120px] max-w-[510px]'
@@ -108,6 +108,7 @@ const ShampooRotatedDescription = () => {
                         className='w-full h-full object-cover rounded-[18px]'
                         width={1000}
                         height={1000}
+                        sizes='(min-width: 1024px) 50vw, 100vw'
                       />
                     </div>
                   </motion.div>
