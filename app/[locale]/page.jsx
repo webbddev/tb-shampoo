@@ -26,7 +26,7 @@ export default function Home() {
   });
 
   return (
-    <main className='w-full max-w-full mx-auto overflow-hidden bg-white'>
+    <main className='mx-auto overflow-hidden bg-white'>
       <Header />
       <Hero />
       <Features />

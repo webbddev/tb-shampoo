@@ -22,13 +22,6 @@ const staggerContainer = {
 const Footer = () => {
   const t = useTranslations('footer');
 
-  // const links = [
-  //   { href: '#about', name: t('links.items.0.name') },
-  //   { href: '#gallery', name: t('links.items.1.name') },
-  //   { href: '/', name: t('links.items.2.name') },
-  //   { href: '#contact', name: t('links.items.3.name') }
-  // ];
-
   const links = navConfig.items.map((item) => ({
     href: item.hash,
     name: t(`links.items.${item.key}.name`),
@@ -117,7 +110,7 @@ const Footer = () => {
           </motion.div>
 
           {/* Newsletter */}
-          <motion.div variants={fadeIn('up')} className='flex-1'>
+          {/* <motion.div variants={fadeIn('up')} className='flex-1'>
             <div className='font-oswald text-xl uppercase tracking-[0.08em] mb-6'>
               {t('newsletter.title')}
             </div>
@@ -134,7 +127,7 @@ const Footer = () => {
                 <FiSend />
               </button>
             </form>
-          </motion.div>
+          </motion.div> */}
         </motion.div>
       </div>
     </footer>

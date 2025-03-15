@@ -93,12 +93,12 @@ const Contact = () => {
                     </div>
                   </div>
                   {/* get location link */}
-                  <Link
+                  {/* <Link
                     className='font-thin border-b border-dark pb-[5px]'
                     href='#'
                   >
                     {t(`offices.${office}.link`)}
-                  </Link>
+                  </Link> */}
                 </div>
               ))}
             </div>

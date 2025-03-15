@@ -51,20 +51,21 @@ const ShampooRotatedDescription = () => {
                       className={`h3 mb-4 ${
                         isEven
                           ? 'lg:ml-[-20px] max-w-[510px]'
-                          : 'lg:mr-[100px] max-w-[510px]'
+                          : 'lg:mr-[120px] max-w-[510px]'
                       }`}
                     >
                       {t(`images.${index}.descriptionTitle`)}
                     </h2>
 
                     {/* Mobile-only image that appears between title and description */}
-                    <div className='w-full mb-8 lg:hidden'>
+                    <div className='w-full mb-8 lg:hidden '>
                       <Image
                         src={image.src}
                         alt={t(`images.${index}.alt`)}
-                        className='w-full h-[40vh] object-cover rounded-[18px]'
-                        width={500}
-                        height={500}
+                        className='w-full h-[60vh] object-cover rounded-[18px]'
+                        width={600}
+                        height={600}
+                        sizes='100vw'
                       />
                     </div>
 
