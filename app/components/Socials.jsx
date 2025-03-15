@@ -10,7 +10,9 @@ const Socials = () => {
       {socialData.map((item, index) => {
         return (
           <li key={index}>
-            <Link href={item.href}>{item.icon}</Link>
+            <Link href={item.href} target='_blank' rel='noopener noreferrer'>
+              {item.icon}
+            </Link>
           </li>
         );
       })}

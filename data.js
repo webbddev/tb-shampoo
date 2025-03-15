@@ -20,6 +20,8 @@ import ShampooImg5 from './public/img/shampoo/5-shampoo.jpg';
 // import icons
 import { GrFacebookOption } from 'react-icons/gr';
 import { IoMdArrowForward } from 'react-icons/io';
+import { PiTelegramLogoLight } from 'react-icons/pi';
+
 import { FiSend } from 'react-icons/fi';
 import { FaPlay, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 import {
@@ -109,10 +111,17 @@ export const links = [
 ];
 
 export const socialData = [
-  { href: '#', icon: <GrFacebookOption /> },
-  { href: '#', icon: <IoLogoInstagram /> },
-  { href: '#', icon: <IoLogoYoutube /> },
-  // { href: '#', icon: <IoTelegram /> }, найти иконку
+  {
+    href: 'https://www.facebook.com/share/19Y5jHbaTj/',
+    icon: <GrFacebookOption />,
+  },
+  {
+    href: 'https://www.instagram.com/braga.tatiana?igsh=YW1nOTV1bGM0Zmt6',
+    icon: <IoLogoInstagram />,
+  },
+  { href: 'https://t.me/+37379718259', icon: <PiTelegramLogoLight /> },
+  // { href: '#', icon: <IoLogoYoutube /> },
+  // { href: '#', icon: <IoTelegram /> },
 ];
 
 // Hero section related data

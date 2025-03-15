@@ -3,8 +3,8 @@
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
-import ShampooImg1 from '../../public/img/shampoo/product-3.jpg';
-import ShampooImg2 from '../../public/img/shampoo/product-4.jpg';
+import ShampooImg1 from '../../public/img/shampoo/product-1.jpg';
+import ShampooImg2 from '../../public/img/shampoo/product-2.jpg';
 import ShampooImg3 from '../../public/img/shampoo/3-shampoo.jpg';
 import ShampooImg4 from '../../public/img/shampoo/4-shampoo.jpg';
 import ShampooImg5 from '../../public/img/shampoo/5-shampoo.jpg';

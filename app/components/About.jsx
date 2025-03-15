@@ -5,9 +5,11 @@ import { aboutData } from '../../data';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { IoMdArrowForward } from 'react-icons/io';
+import aboutImage from '../../public/img/about/tb-face-3.jpg';
 
 // import variants
 import { fadeIn } from '../variants';
+import Image from 'next/image';
 
 const About = () => {
   const [isButtonClicked, setIsButtonClicked] = useState(false);
@@ -25,9 +27,20 @@ const About = () => {
             viewport={{ once: false, amount: 0.7 }}
             className='flex flex-col lg:flex-row flex-1'
           >
-            <div className='text-[300px] xl:text-[460px] 2xl:text-[500px] leading-none font-rozha lg:-tracking-[0.021em] bg-about_img bg-no-repeat bg-right bg-clip-text text-transparent overflow-visible'>
-              TB
+            <div className='relative w-full min-h-[400px] aspect-square mb-6'>
+              <Image
+                src={aboutImage}
+                alt='About TB Shampoo'
+                className='object-cover rounded-[18px]'
+                fill
+                sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
+                priority
+              />
             </div>
+
+            {/* <div className='text-[300px] xl:text-[460px] 2xl:text-[500px] leading-none font-rozha lg:-tracking-[0.021em] bg-about_img bg-no-repeat bg-right bg-clip-text text-transparent overflow-visible'>
+              TB
+            </div> */}
           </motion.div>
 
           {/* text */}
