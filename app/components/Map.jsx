@@ -12,12 +12,6 @@ import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility
 
 const markers = [
   {
-    position: [47.045745939597445, 28.865262866020206],
-    title: 'Sexy Place',
-    subtitle: 'Here такая вся sexy lives',
-    image: '/img/map/2.png',
-  },
-  {
     position: [47.018677119196795, 28.83239329659408],
     title: 'TB Beauty House',
     subtitle:
@@ -55,19 +49,32 @@ const Map = () => {
         {/* markers */}
         {markers.map((marker, index) => {
           return (
-            <Marker key={index} position={marker.position} icon={customIcon}>
-              <Popup>
-                <div className='flex gap-x-[30px]'>
-                  <div className='flex-1'>
-                    <h3>{marker.title}</h3>
-                    <p className='leading-snug'>{marker.subtitle}</p>
+            <Marker
+              key={index}
+              position={marker.position}
+              icon={customIcon}
+              eventHandlers={{
+                mouseover: (e) => e.target.openPopup(),
+              }}
+            >
+              <Popup className='custom-popup'>
+                <div className='flex flex-col gap-4 p-1 max-w-md'>
+                  <div className='flex-1 space-y-2'>
+                    <h3 className='text-xl font-bold text-primary'>
+                      {marker.title}
+                    </h3>
+                    <p className='text-base text-gray-700 leading-relaxed'>
+                      {marker.subtitle}
+                    </p>
                   </div>
-                  <div className='flex-1'>
+                  <div className='flex-1 flex justify-center items-center'>
                     <Image
                       src={marker.image}
                       width={130}
                       height={160}
                       alt={marker.title}
+                      className='rounded-lg shadow-md hover:scale-105 transition-transform duration-300'
+                      priority
                     />
                   </div>
                 </div>
