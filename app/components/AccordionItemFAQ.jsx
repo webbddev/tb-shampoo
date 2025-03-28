@@ -29,7 +29,7 @@ const AccordionItemFAQ = ({ item, index }) => {
       {/* Expandable content section with smooth height transition */}
       <div
         className={`overflow-hidden transition-all duration-500 ease-in-out ${
-          isAccordionOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+          isAccordionOpen ? 'max-h-full opacity-100' : 'max-h-0 opacity-0'
         }`}
       >
         {/* Answer text */}
